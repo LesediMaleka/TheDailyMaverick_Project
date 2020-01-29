@@ -1,7 +1,9 @@
 /* this is the navbar section */
 html{
-    background-color: grey;
     overflow-x: hidden;
+  }
+  body{
+      background-color: gray;
   }
  
   .nav-item{
@@ -142,6 +144,7 @@ p{
     background-color: red;
     width: 100vw;
     height: 10vh;
+    bottom: 0;
 }
 .icons{
     width: 5vw;
