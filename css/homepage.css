@@ -4,6 +4,80 @@
     left: 70px;
     bottom: 40px;
 }
+.subscribe{
+    position: relative;
+    top: 450px;
+    left: 20px;
+    margin: 20px auto;
+    border: 0;
+    color: white;
+    width: 100px;
+    height: 50px;
+    padding: 6px 10px;
+}
+/* This is the newspaper svg image */
+#newspaper{
+    position: absolute;
+    left: 80px;
+    width: 200px;
+    height: 100px;
+}
+ 
+.popupWrapper{
+   background:  rgba(0,0,0,0.5);
+   position: fixed;
+   width:100%;
+   height:100%;
+   top: 0;
+   left:0;
+   display: none; 
+}
+.popup{
+    background: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width:100%;
+    max-width: 600px;
+    height: 550px;
+    margin:10% auto;
+    position:relative;
+    padding: 5%;
+}
+h2{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+input{
+    position: relative;
+    top: 350px;
+    width: 300px;
+    height: 30px;
+}
+#signmeup{
+    position: absolute;;
+    top:410px;
+    left: 33px;
+    width:300px;
+    height: 30px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 3px 20px ;
+    
+}
+.close{
+    position: absolute;
+    top:5px;
+    right: 8px;
+    cursor: pointer;
+}
+/* This is the no thanks message underneath the sign me up button */
+.Thanks{
+    position: absolute;
+    top: 460px;
+    left: 120px;
+}
 
 p{
     position: absolute;
@@ -23,16 +97,16 @@ p{
 }
 .facebook{
     position: relative;
-    top: 2vh;
+    top: 1vh;
 }
 .instagram{
     position: relative;
-    bottom: 0.8vh;
+    bottom: 3vh;
     left: 6vw;
 }
 .twitter{
     position: relative;
-    bottom: 3.6vh;
+    bottom: 7vh;
     left: 13vw;
 }
 .location{
