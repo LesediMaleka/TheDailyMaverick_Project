@@ -16,7 +16,7 @@ html{
   bottom: 5px;
   width: 60vw;
   height: 10vh;
- left: 30px;
+  left: 30px;
    padding: 10px;
    overflow-x: hidden;
     }
@@ -30,18 +30,16 @@ html{
   bottom: 20px;
   
   }
-    h3{
+h3{
     position: relative;
     left: 10px;
     font-size: 1em;
     bottom: 10px;
-
     }
-    .dropdown {
+.dropdown {
         position: relative;
         display: inline-block;
     }
-
     .dropdown-content {
         display: none;
         position: absolute;
@@ -61,8 +59,8 @@ html{
     /* This is the subscribe svg image */
 .subscribe{
     position: relative;
-    top: 450px;
-    left: 20px;
+    /* top: 450px;
+    left: 20px; */
     margin: 20px auto;
     border: 0;
     color: white;
@@ -139,8 +137,10 @@ p{
     top: 500px;
 }
 .footer{
-    position: relative;
-    top: 140vw;
+    position: fixed;
+    bottom: 0;
+    /* top: 140vw; */
+    bottom: 0;
     background-color: red;
     width: 100vw;
     height: 10vh;
@@ -166,14 +166,14 @@ p{
     left: 13vw;
 }
 .location{
-    width: 6vw;
+    width: 7vw;
     position: relative;
-    bottom: 6vh;
+    bottom: 7vh;
     left: 85vw;
 }
 .copy{
-    position: relative;
-    top: 75vh;
+    position: fixed;
+    top: 100vh;
     left: 3vw;
     font-family: 'Old Standard TT', serif;
 }
