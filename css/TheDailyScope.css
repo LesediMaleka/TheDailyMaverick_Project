@@ -1,0 +1,28 @@
+.daily{
+    width: 20%;
+    position: relative;
+    left: 45%;
+    background-color: red;
+    border-radius: 50px;
+    padding: 12px;
+}
+.first{
+    color: aqua;
+    background-color: darkblue;
+    border-color: darkgoldenrod;
+    height: 30vh;
+}
+.yellow{
+    color: aqua;
+    background-color: yellow;
+    border-color: rgb(19, 18, 18);
+}
+h1,h3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.one{
+    width: 100%;
+    height: 35vh;
+}
