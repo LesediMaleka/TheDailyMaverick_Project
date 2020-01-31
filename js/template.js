@@ -50,7 +50,7 @@ function myFunction() {
   
   
   facebook.addEventListener('click', () =>{
-      window.open('https://www.facebook.com/dailymaverick/')
+      window.open('https://www.facebook.com/dailymaverick')
     });
     instagram.addEventListener('click', () =>{
       window.open('https://www.instagram.com/dailymaverick/')
