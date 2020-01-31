@@ -137,10 +137,15 @@ p{
     top: 500px;
 }
 .footer{
+<<<<<<< HEAD
+    position: relative;
+    top: 141vw;
+=======
     position: fixed;
     bottom: 0;
     /* top: 140vw; */
     bottom: 0;
+>>>>>>> 487e78d50d175829baaafa645d3887f0a4fb298c
     background-color: red;
     width: 100vw;
     height: 10vh;

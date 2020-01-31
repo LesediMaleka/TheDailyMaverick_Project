@@ -1,0 +1,197 @@
+body{
+    background-color: gray;
+    overflow-x: hidden;
+}
+.Gales{
+        top:8%;
+        width: 20%;
+        position: relative;
+        left: 37%;
+        background-color: red;
+        border-radius: 50px;
+        padding: 12px;
+    }
+
+h1,h3{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+.linebreak{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+} 
+.linebreak2{
+    position: absolute;
+    top:81%;
+    width: 90%;
+    left: 5%;
+}
+
+.cartoonOne{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    width: 90vw;
+    height:30vh;
+}
+ 
+.commentIcon{
+    position: absolute;
+    top:72%;
+    left: 15%;
+    width: 10vw;
+    Height:10vh;
+} 
+.shareIcon{
+    position: absolute;
+    top:72%;
+    left:45%;
+    width:10vw;
+    Height:10vh;
+}
+.thumbsIcon{
+    position: absolute;
+    top:72%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
+
+/*  This is the styling of the cartoon two */
+.cartoonTwo{
+    position: absolute;
+    top:85%;
+    left:5%;
+    width:90vw;
+    Height:30vh;
+}
+.commentIcon1{
+    position: absolute;
+    top:118%;
+    left:15%;
+    width:10vw;
+    Height:10vh;
+}
+.shareIcon1{
+    position: absolute;
+    top:118%;
+    left:45%;
+    width:10vw;
+    Height:10vh;
+}
+.thumbsIcon1{
+    position: absolute;
+    top:118%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
+.linebreak3{
+    position: absolute;
+    top:175%;
+    width: 90%;
+    left: 5%;
+}
+/* .woman{
+    position: absolute;
+    top: 145%;
+
+}
+.womanportrait{
+    position: relative;
+    width:90%;
+    height: 100%;
+} */
+
+ /* this is the styling for the opinionista images with text below the image  */
+ .first{
+    position: relative;
+    top:100%;
+    color:black;
+    height: 55vh;
+}
+.cardTitle{
+    color: red;
+    font-family: 'Oswald', sans-serif; ;
+
+}
+.cardText{
+    font-family: 'Oswald', sans-serif; ;
+}
+.name{
+   font-family: 'Old Standard TT', serif; ;
+}
+
+.linebreak4{
+    position: absolute;
+    top:130%;
+    width: 90%;
+    left: 5%;
+}
+/* This is the styling of cartoon3  */
+
+.cartoonThree{
+    position: absolute;
+    top:134%;
+    left:5%;
+    width:90vw;
+    Height:30vh;
+}
+.commentIcon2{
+    position: absolute;
+    top:165%;
+    left:15%;
+    width:10vw;
+    Height:10vh;
+}
+.shareIcon2{
+    position: absolute;
+    top:165%;
+    left:45%;
+    width:10vw;
+    Height:10vh;
+}
+.thumbsIcon2{
+    position: absolute;
+    top:165%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
+.linebreak5{
+    position: absolute;
+    top:225%;
+    width: 90%;
+    left: 5%;
+}
+
+/* This is the styling of cartoon 4 */
+.cartoonFour{
+    position: absolute;
+    top:179%;
+    left:5%;
+    width:90vw;
+    Height:30vh;
+}
+.commentIcon3{
+    position: absolute;
+    top:210%;
+    left:15%;
+    width:10vw;
+    Height:10vh;
+}
+.shareIcon3{
+    position: absolute;
+    top:210%;
+    left:45%;
+    width:10vw;
+    Height:10vh;
+}
+.thumbsIcon3{
+    position: absolute;
+    top:210%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
