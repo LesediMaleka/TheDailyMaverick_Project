@@ -59,16 +59,15 @@ h3{
 
     /* This is the subscribe svg image */
 .subscribe{
-    position: relative;
-    /* top: 450px;
-    left: 20px; */
+    position: absolute;
+    top: 675%;
+    left: 140px;
     margin: 20px auto;
     border: 0;
     color: white;
     width: 100px;
     height: 50px;
     padding: 6px 10px;
-    z-index: 2;
 }
 /* This is the newspaper svg image */
 #newspaper{
