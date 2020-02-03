@@ -13,11 +13,11 @@ body{
         padding: 12px;
     }
 
-
 h1,h3{
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
+
 .linebreak{
     position: absolute;
     width: 90%;
@@ -25,7 +25,7 @@ h1,h3{
 } 
 .linebreak2{
     position: absolute;
-    top:72%;
+    top:73%;
     width: 90%;
     left: 5%;
 }
@@ -33,28 +33,28 @@ h1,h3{
 .cartoonOne{
     position: absolute;
     left: 5%;
-    top: 33%;
+    top: 34%;
     width: 90vw;
     height:30vh;
 }
  
 .commentIcon{
     position: absolute;
-    top:64%;
+    top:65%;
     left: 15%;
     width: 10vw;
     Height:10vh;
 } 
 .shareIcon{
     position: absolute;
-    top:64%;
+    top:65%;
     left:45%;
     width:10vw;
     Height:10vh;
 }
 .thumbsIcon{
     position: absolute;
-    top:64%;
+    top:65%;
     left:75%;
     width:10vw;
     Height:10vh;
@@ -63,35 +63,35 @@ h1,h3{
 /*  This is the styling of the cartoon two */
 .cartoonTwo{
     position: absolute;
-    top:78%;
+    top:80%;
     left:5%;
     width:90vw;
     Height:30vh;
 }
 .commentIcon1{
     position: absolute;
-    top:108%;
+    top:111%;
     left:15%;
     width:10vw;
     Height:10vh;
 }
 .shareIcon1{
     position: absolute;
-    top:108%;
+    top:111%;
     left:45%;
     width:10vw;
     Height:10vh;
 }
 .thumbsIcon1{
     position: absolute;
-    top:108%;
+    top:111%;
     left:75%;
     width:10vw;
     Height:10vh;
 }
 .linebreak3{
     position: absolute;
-    top:118%;
+    top:119%;
    width: 90%;
    left: 5%;
 }
@@ -100,7 +100,7 @@ h1,h3{
 
 .Opinionista{
     position: absolute;
-    top: 123%;
+    top: 125%;
     left:5%;
     background-color: white;
     width: 90vw;
@@ -285,3 +285,11 @@ h1,h3{
     width: 90%;
     left: 5%;
 }
+
+.linebreak8{
+    position: absolute;
+    top: 380%;
+    width: 90%;
+    left: 5%;
+}
+  
