@@ -4,28 +4,33 @@ body{
 }
 
 .Gales{
-        top:8%;
+        top:2%;
         width: 20%;
         position: relative;
-        left: 37%;
+        left: 38%;
         background-color: red;
         border-radius: 50px;
         padding: 12px;
     }
 
 h1,h3{
+        position: absolute;
+        color: black;
+        top: 30%;
+        left: 14%;
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
 
 .linebreak{
     position: absolute;
+    top: 38%;
     width: 90%;
     left: 5%;
 } 
 .linebreak2{
     position: absolute;
-    top:73%;
+    top:84%;
     width: 90%;
     left: 5%;
 }
@@ -33,28 +38,28 @@ h1,h3{
 .cartoonOne{
     position: absolute;
     left: 5%;
-    top: 34%;
+    top: 45%;
     width: 90vw;
     height:30vh;
 }
  
 .commentIcon{
     position: absolute;
-    top:65%;
+    top:76%;
     left: 15%;
     width: 10vw;
     Height:10vh;
 } 
 .shareIcon{
     position: absolute;
-    top:65%;
+    top:76%;
     left:45%;
     width:10vw;
     Height:10vh;
 }
 .thumbsIcon{
     position: absolute;
-    top:65%;
+    top:76%;
     left:75%;
     width:10vw;
     Height:10vh;
@@ -63,35 +68,35 @@ h1,h3{
 /*  This is the styling of the cartoon two */
 .cartoonTwo{
     position: absolute;
-    top:80%;
+    top:91%;
     left:5%;
     width:90vw;
     Height:30vh;
 }
 .commentIcon1{
     position: absolute;
-    top:111%;
+    top:122%;
     left:15%;
     width:10vw;
     Height:10vh;
 }
 .shareIcon1{
     position: absolute;
-    top:111%;
+    top:122%;
     left:45%;
     width:10vw;
     Height:10vh;
 }
 .thumbsIcon1{
     position: absolute;
-    top:111%;
+    top:122%;
     left:75%;
     width:10vw;
     Height:10vh;
 }
 .linebreak3{
     position: absolute;
-    top:119%;
+    top:130%;
    width: 90%;
    left: 5%;
 }
@@ -100,11 +105,11 @@ h1,h3{
 
 .Opinionista{
     position: absolute;
-    top: 125%;
+    top: 142%;
     left:5%;
     background-color: white;
     width: 90vw;
-    height:60%;
+    height:50%;
     
 }
  .woman{
@@ -124,7 +129,7 @@ h1,h3{
 }
 .cardText{
     position: absolute;
-    bottom:23%;
+    bottom:21%;
     left:3%;
     font-family: 'Old Standard TT', serif; 
     font-size: 1em;
@@ -132,14 +137,14 @@ h1,h3{
 }
 .name{
     position: absolute;
-    bottom:15%;
+    bottom:11%;
     left:3%;
     font-family: 'Old Standard TT', serif;
     font-size: 14px; 
 }
 .date{
     position: absolute;
-    bottom:15%;
+    bottom:11%;
     left:80%;
     font-family: 'Old Standard TT', serif; 
     font-size: 14px;
@@ -147,7 +152,7 @@ h1,h3{
  
 .linebreak4{
     position: absolute;
-    top: 183%;
+    top: 194%;
     width: 90%;
     left: 5%;
 }
@@ -157,21 +162,21 @@ h1,h3{
 
  .cartoonThree{
     position: absolute;
-    top:188%;
+    top:201%;
     left:5%;
     width:90vw;
     Height:30vh;
 }
 .commentIcon2{
     position: absolute;
-    top:220%;
+    top:231%;
     left:15%;
     width:10vw;
     Height:10vh;
 }
  .shareIcon2{
     position: absolute;
-    top:220%;
+    top:231%;
     left:45%;
     width: 10vw;
     height:10vh;
@@ -179,14 +184,14 @@ h1,h3{
 } 
 .thumbsIcon2{
     position: absolute;
-    top:220%;
+    top:231%;
     left:75%;
     width:10vw;
     Height:10vh;
 }
 .linebreak5{
     position: absolute;
-    top:229%;
+    top:239%;
     width: 90%;
     left: 5%;
 }   
@@ -196,21 +201,21 @@ h1,h3{
 
 .cartoonFour{
     position: absolute;
-    top:235%;
+    top:246%;
     left:5%;
     width:90vw;
     Height:30vh;
 }
 .commentIcon3{
     position: absolute;
-    top:265%;
+    top:277%;
     left:15%;
     width:10vw;
     Height:10vh;
 }
  .shareIcon3{
     position: absolute;
-    top:265%;
+    top:277%;
     left:45%;
     width: 10vw;
     height:10vh;
@@ -218,14 +223,14 @@ h1,h3{
 } 
 .thumbsIcon3{
     position: absolute;
-    top:265%;
+    top:277%;
     left:75%;
     width:10vw;
     Height:10vh;
 }
 .linebreak6{
     position: absolute;
-    top:290%;
+    top:349%;
     width: 90%;
     left: 5%;
 }   
@@ -234,11 +239,11 @@ h1,h3{
 
 .Opinionista2{
     position: absolute;
-    top: 280%;
+    top: 297%;
     left:5%;
     background-color: white;
     width: 90vw;
-    height:60%;
+    height:50%;
     
 }
  .man{
@@ -258,7 +263,7 @@ h1,h3{
 }
 .cardText2{
     position: absolute;
-    bottom:23%;
+    bottom:20%;
     left:3%;
     font-family: 'Old Standard TT', serif; 
     font-size: 1em;
@@ -266,14 +271,14 @@ h1,h3{
 }
 .name2{
     position: absolute;
-    bottom:15%;
+    bottom:11%;
     left:3%;
     font-family: 'Old Standard TT', serif;
     font-size: 14px; 
 }
 .date2{
     position: absolute;
-    bottom:15%;
+    bottom:11%;
     left:80%;
     font-family: 'Old Standard TT', serif; 
     font-size: 14px;
@@ -281,7 +286,7 @@ h1,h3{
  
 .linebreak7{
     position: absolute;
-    top: 274%;
+    top: 285%;
     width: 90%;
     left: 5%;
 }
@@ -291,5 +296,16 @@ h1,h3{
     top: 380%;
     width: 90%;
     left: 5%;
+}
+.subscribe{
+    position: absolute;
+    top: 352%;
+    left: 140px;
+    margin: 20px auto;
+    border: 0;
+    color: white;
+    width: 100px;
+    height: 50px;
+    padding: 6px 10px;
 }
   
