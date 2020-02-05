@@ -59,7 +59,7 @@ h3{
     /* this is the subcribe section */
 
     /* This is the subscribe svg image */
-/* .subscribe{
+.subscribe{
     position: absolute;
     top: 675%;
     left: 140px;
@@ -69,7 +69,8 @@ h3{
     width: 100px;
     height: 50px;
     padding: 6px 10px;
-} */
+}
+
 /* This is the newspaper svg image */
 #newspaper{
     position: absolute;
@@ -196,4 +197,14 @@ p{
     padding-top: 100px;
     left: 3vw;
     font-family: 'Old Standard TT', serif;
+}
+a{
+    color: black;
+}
+h5{
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
 }
