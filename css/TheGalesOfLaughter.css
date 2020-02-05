@@ -298,10 +298,10 @@ h1,h3{
     width: 90%;
     left: 5%;
 }
-.subscribe{
+.subscribeButton{
     position: absolute;
     top: 352%;
-    left: 140px;
+    left: 129px;
     margin: 20px auto;
     border: 0;
     color: white;
