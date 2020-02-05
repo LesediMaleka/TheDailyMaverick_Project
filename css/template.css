@@ -59,7 +59,7 @@ h3{
     /* this is the subcribe section */
 
     /* This is the subscribe svg image */
-/* .subscribe{
+ .subscribe{
     position: absolute;
     top: 675%;
     left: 140px;
@@ -69,7 +69,7 @@ h3{
     width: 100px;
     height: 50px;
     padding: 6px 10px;
-} */
+ }
 /* This is the newspaper svg image */
 #newspaper{
     position: absolute;
