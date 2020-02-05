@@ -34,7 +34,10 @@ h3{
     top: 5px;
     font-size: 1.5em;
 }
-a{
+a {
+    color:black;
+}
+h5{
     color:rgb(0,0,0);
     text-decoration: underline;
     font-weight: 800;

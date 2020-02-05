@@ -179,3 +179,13 @@ p{
     left: 3vw;
     font-family: 'Old Standard TT', serif;
 }
+a {
+    color:black;
+}
+h5{
+    color:rgb(0,0,0);
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+}
