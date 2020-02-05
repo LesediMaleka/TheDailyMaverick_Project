@@ -5,6 +5,7 @@ html{
   body{
       background-color: gray;
       overflow: hidden;
+      cursor: pointer;
   }
  
   .nav-item{
@@ -59,9 +60,9 @@ h3{
 
     /* This is the subscribe svg image */
 .subscribe{
-    position: relative;
-    /* top: 450px;
-    left: 20px; */
+    position: absolute;
+    top: 675%;
+    left: 140px;
     margin: 20px auto;
     border: 0;
     color: white;
@@ -72,7 +73,8 @@ h3{
 /* This is the newspaper svg image */
 #newspaper{
     position: absolute;
-    left: 80px;
+    fill: white;
+    left: 75px;
     width: 200px;
     height: 100px;
 }
@@ -82,12 +84,12 @@ h3{
    position: fixed;
    width:100%;
    height:100%;
-   top: 0;
+   bottom: 2vh;
    left:0;
    display: none; 
 }
 .popup{
-    background: white;
+    background: black;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     width:100%;
@@ -123,13 +125,23 @@ input{
 }
 .close{
     position: absolute;
+    color: white;
+    opacity: 1;
     top:5px;
     right: 8px;
     cursor: pointer;
 }
+#discover{
+    position: absolute;
+    left: 24%;
+    color: white;
+    font-size: 1.9em;
+}
 /* This is the no thanks message underneath the sign me up button */
 .Thanks{
     position: absolute;
+    text-decoration: underline;
+    color: white;
     top: 460px;
     left: 120px;
 }
@@ -138,15 +150,21 @@ p{
     position: absolute;
     top: 500px;
 }
+#privacy{
+    color:white;
+    text-decoration: underline;
+}
+#para{
+    color: white;
+    
+}
 .footer{
     position: fixed;
     bottom: 0;
     /* top: 140vw; */
-    bottom: 0;
     background-color: red;
     width: 100%;
     height: 10vh;
-    bottom: 0;
 }
 .icons{
     width: 5vw;
@@ -179,11 +197,11 @@ p{
     left: 3vw;
     font-family: 'Old Standard TT', serif;
 }
-a {
-    color:black;
+a{
+    color: black;
 }
 h5{
-    color:rgb(0,0,0);
+    color: black;
     text-decoration: underline;
     font-weight: 800;
     font-size: 1.3em;

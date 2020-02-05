@@ -52,21 +52,12 @@ h1,h3{
 .two{
     padding: 10px;
 }
-
-
-.politicalOne{
-    height: 20vh;
-}
-.social{
-    color:red;
-}
-.political{
-    color:orange;
-}
-.two{
-    padding: 10px;
-}
-
 .card{
     background-color: gray;
+}
+.footer{
+right: 15px;
+}
+.copy{
+    left: 8vw;
 }
