@@ -60,7 +60,8 @@ right: 0px;
 width: 100%;
 }
 .copy{
-    left: 5vw;
+    left: 2vw;
+    top: 600px;
 }
 .im{
     position: relative;
@@ -72,6 +73,12 @@ h5{
     font-weight: 800;
     font-size: 1.3em;
     font-family: 'Oswald', sans-serif;
+}
+.subscribe{
+    width: 10%;
+ position: relative;
+ left: 100px;
+ top: 10px;
 }
 
 
