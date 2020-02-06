@@ -189,14 +189,15 @@ p{
 .location{
     width: 7vw;
     position: relative;
-    bottom: 7vh;
+    bottom: 6.5vh;
     left: 85vw;
 }
 .copy{
     position: fixed;
     padding-top: 110px;
-    left: 3vw;
+    left: 4vw;
     font-family: 'Old Standard TT', serif;
+    color: black;
 }
 a{
     color: black;
