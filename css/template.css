@@ -76,23 +76,21 @@ html{
 
 .img{
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
   width: 60vw;
   height: 10vh;
   left: 125px;
    padding: 10px;
    overflow-x: hidden;
     }
-.search{
-    width: 20%;
-  }
-  h2{
+
+h2{
   position: relative;
   left: 20px;
   font-size: 1em;
   bottom: 20px;
-  
   }
+
 h3{
     position: relative;
     left: 10px;
@@ -254,6 +252,7 @@ p{
     position: relative;
     bottom: 7vh;
     left: 85vw;
+    color: black;
 }
 .copy{
     position: fixed;
