@@ -12,6 +12,7 @@ body{
         background-color: red;
         border-radius: 50px;
         padding: 12px;
+                
     }
 
 h1,h3{
@@ -22,9 +23,9 @@ h1,h3{
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
-
+   
 .linebreak{
-    position: absolute;
+    position:absolute;
     top: 38%;
     width: 90%;
     left: 5%;

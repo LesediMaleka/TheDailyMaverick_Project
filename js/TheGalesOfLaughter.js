@@ -13,3 +13,19 @@ subscribe.addEventListener('click', () =>{
 close.addEventListener('click', () =>{
     wrapper.style.display = 'none'
    });
+
+   signmeup.addEventListener('click', () =>{
+    window.open('https://www.dailymaverick.co.za/about/newsletter/')
+});
+privacy.addEventListener('click', () =>{
+    window.open('https://www.dailymaverick.co.za/privacy-policy/')
+
+});
+
+
+
+
+
+  
+ 
+   
