@@ -3,7 +3,7 @@
 .Dm{
     width: 20%;
     position: relative;
-    left: 130px;
+    left: 150px;
 }
 
 /* This is the logo for the daily scope to represent the political and social news */
@@ -55,6 +55,22 @@ h1,h3{
 .card{
     background-color: gray;
 }
+
+/* .footer{
+right: 15px;
+width: 100%;
+}
+.copy{
+    left: 8vw;
+    top: 590px;
+} */
+
+.subscribe{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
 .footer{
 right: 0px;
 width: 100%;
@@ -62,6 +78,7 @@ width: 100%;
 .copy{
     left: 2vw;
     top: 600px;
+
 }
 .im{
     position: relative;
@@ -74,11 +91,11 @@ h5{
     font-size: 1.3em;
     font-family: 'Oswald', sans-serif;
 }
-.subscribe{
+/* .subscribe{
     width: 10%;
  position: relative;
  left: 100px;
  top: 10px;
-}
+} */
 
 
