@@ -70,3 +70,32 @@ width: 100%;
     bottom: 10px;
     left: 10px;
 }
+
+.footer{
+right: 0px;
+width: 100%;
+}
+.copy{
+    left: 2vw;
+    top: 600px;
+
+}
+.im{
+    position: relative;
+    left: 130px;
+}
+h5{
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+}
+/* .subscribe{
+    width: 10%;
+ position: relative;
+ left: 100px;
+ top: 10px;
+} */
+
+
