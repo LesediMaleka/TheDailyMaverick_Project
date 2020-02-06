@@ -46,6 +46,7 @@ html{
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
     font-size: 1.9em;
+    font-family: 'Oswald', sans-serif;
 
   }
   
