@@ -1,12 +1,12 @@
-//this is the navbar section
-function myFunction() {
-    let x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
   //this is the subscribe section
   const subscribebtn = document.querySelector('.subscribe');
   const wrapper = document.querySelector('.popupWrapper')

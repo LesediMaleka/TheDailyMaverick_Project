@@ -3,9 +3,6 @@ const wrapper = document.querySelector('.popupWrapper');
 const close = document.querySelector('.close');
 
 
-
-
-
 subscribe.addEventListener('click', () =>{
     wrapper.style.display = 'block'
 
@@ -23,7 +20,14 @@ privacy.addEventListener('click', () =>{
 });
 
 
-
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
 
 
   
