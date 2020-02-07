@@ -98,6 +98,8 @@ body{
       right: 35px;
     }
   } */
+ 
+/* This is the linebreak below the navBar */  
   .MainLineBreak{
     position: absolute;
     top: 9%;
