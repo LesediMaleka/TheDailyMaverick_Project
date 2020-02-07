@@ -118,6 +118,17 @@ h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     position: relative;
-   
+    text-decoration: underline;
+}
+.ButtonSubscribe{
+    position: absolute;
+    top: 386%;
+    left: 140px;
+    margin: 20px auto;
+    border: 0;
+    color: white;
+    width: 100px;
+    height: 40px;
+    padding: 6px 10px;
 }
 

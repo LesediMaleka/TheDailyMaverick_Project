@@ -8,7 +8,7 @@ function closeNav() {
 }
 
   //this is the subscribe section
-  const subscribebtn = document.querySelector('.subscribe');
+  const subscribebtn = document.querySelector('.ButtonSubscribe');
   const wrapper = document.querySelector('.popupWrapper')
   const close = document.querySelector('.close');
   // const signmeup = document.querySelector('#signmeup');
