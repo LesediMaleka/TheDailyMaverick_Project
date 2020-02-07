@@ -91,15 +91,22 @@ body{
       right: 35px;
     }
   } */
-
+  .MainLineBreak{
+    position: absolute;
+    top: 9%;
+    width: 100%;
+    border-color: black;
+    border-width: 1px 0 0 0 ;
+    }
 .img{
   position: relative;
-  bottom: 10px;
-  width: 65vw;
-  height: 8vh;
-  left: 90px;
-   padding: 10px;
-   overflow-x: hidden;
+  bottom: 25px;
+  width: 78vw;
+  height: 7vh;
+  left: 54px;
+  padding: 5px;
+  /* padding-bottom: 0; */
+  overflow-x: hidden;
 }
 
 h2{
@@ -111,9 +118,9 @@ h2{
 
 h3{
     position: relative;
-    left: 10px;
-    font-size: 1em;
-    bottom: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    padding-bottom: 15px;
 }
 
 .dropdown {

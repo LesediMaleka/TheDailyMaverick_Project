@@ -3,53 +3,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--SEO meta-data -->
     <meta name="description" content="The Daily Maverick:The Daily Scope.Social and political current news.">
+
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    <!-- bootstrap css link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- my links to css -->
     <link rel="stylesheet" href="css/TheDailyScope.css">
     <link rel="stylesheet" href="css/template.css">
+
+    <!-- descripitive title tag -->
     <title>The Daily Maverick:The Daily Scope.</title>
 </head>
 <body>
 
          <!-- this is the navbar section -->
          
-    <!-- The overlay -->
+ <!-- The overlay -->
   
-    
-    <div id="myNav" class="overlay">
+ <div id="myNav" class="overlay">
 
-        <div class="col-10">
-          <img class="Dms" src="asssets/images/pics/download (4).png" alt="logo" width="30%">
+    <div class="col-10">
+      <img class="Dms" src="asssets/images/pics/download (4).png" alt="logo" width="30%">
+    </div>
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="TheDailyScope.html">The Daily Scope</a>
+      <a href="TheGalesOfLaughter.html">The Gales Of Laughter</a>
+      <a href="index.html">News & Culture</a>
+      <a href="#">Podcasts</a>
+      
+    </div>
+  
+  </div>
+  
+      
+      <div class="navbar-brand col-4" id="menuToggle">
+      
+        <!-- Use any element to open/show the overlay navigation menu -->
+       
+       
+          <span style="font-size:50px;cursor:pointer" onclick="openNav()"></span>
+          <span style="font-size:50px;cursor:pointer" onclick="openNav()"></span>
+          <span style="font-size:50px;cursor:pointer" onclick="openNav()"></span>
         </div>
-    
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="col-10">
       
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <a href="index.html">index</a>
-          <a href="TheDailyScope.html">TheDailyScope</a>
-          <a href="TheGalesOfLaughter.html">TheGalesOfLaughter</a>
-          <a href="#">Contact</a>
-        </div>
+                <img class="img" src="asssets/images/pics/logo.png" alt="logo">
       
-      </div>
       
-      <!-- Use any element to open/show the overlay navigation menu -->
-      <span onclick="openNav()">open</span>
-    
-            <div class="col-10">
-    
-              <img class="img" src="asssets/images/pics/logo.png" alt="logo">
-    
-    
+              </div>
             </div>
 
 
     
       <!-- this is where the daily scope page begins -->
-      <hr class="cardBottom">
-
+      <hr class="MainLineBreak">
+ <br>
 
       <div class="daily">
  
@@ -70,8 +90,9 @@
 </svg>
 
     </div>
+    
     <!-- this is the main re-named heading -->
-     <h1>The Daily scope</h1>
+     <h1>The Daily Scope</h1>
 
      <!-- this is the sub-heading to the daily scope page -->
    
@@ -725,6 +746,7 @@
     </svg>
     
     </div>
+    <br><br>
 
     <!-- This is the poupwrapper -->
 
