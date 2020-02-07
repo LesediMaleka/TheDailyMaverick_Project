@@ -11,8 +11,8 @@ function closeNav() {
   const subscribebtn = document.querySelector('.subscribe');
   const wrapper = document.querySelector('.popupWrapper')
   const close = document.querySelector('.close');
-  const signmeup = document.querySelector('#signmeup');
-  const privacy = document.querySelector('#Privacy');
+  // const signmeup = document.querySelector('#signmeup');
+  // const privacy = document.querySelector('#Privacy');
  
   
   
@@ -35,36 +35,36 @@ function closeNav() {
   
      });
   
-  signmeup.addEventListener('click', () =>{
-      window.open('https://www.dailymaverick.co.za/about/newsletter/')
-  });
-  privacy.addEventListener('click', () =>{
-      window.open('https://www.dailymaverick.co.za/privacy-policy/')
+  // signmeup.addEventListener('click', () =>{
+  //     window.open('https://www.dailymaverick.co.za/about/newsletter/')
+  // });
+  // privacy.addEventListener('click', () =>{
+  //     window.open('https://www.dailymaverick.co.za/privacy-policy/')
   
-  });
+  // });
  
 
   
   //this is the footer section
-  const facebook = document.querySelector('.facebook')
-  const instagram = document.querySelector('.instagram')
-  const twitter = document.querySelector('.twitter')
-  const locationSearch = document.querySelector('.location')
+  // const facebook = document.querySelector('.facebook')
+  // const instagram = document.querySelector('.instagram')
+  // const twitter = document.querySelector('.twitter')
+  // const locationSearch = document.querySelector('.location')
   
   
   // this are the media links
-  facebook.addEventListener('click', () =>{
-      window.open('https://www.facebook.com/dailymaverick')
-    });
-    instagram.addEventListener('click', () =>{
-      window.open('https://www.instagram.com/dailymaverick/')
-    });
-     twitter.addEventListener('click', () =>{
-       window.open('https://twitter.com/dailymaverick?lang=en')
-     });
-   locationSearch.addEventListener('click', () =>{
-      window.open('https://www.google.com/')
-    });
+  // facebook.addEventListener('click', () =>{
+  //     window.open('https://www.facebook.com/dailymaverick')
+  //   });
+  //   instagram.addEventListener('click', () =>{
+  //     window.open('https://www.instagram.com/dailymaverick/')
+  //   });
+  //    twitter.addEventListener('click', () =>{
+  //      window.open('https://twitter.com/dailymaverick?lang=en')
+  //    });
+  //  locationSearch.addEventListener('click', () =>{
+  //     window.open('https://www.google.com/')
+  //   });
   
     
    
