@@ -22,7 +22,6 @@
 }
 /* h1 The Daily scope
 h3 Political and Social */
-
 h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -34,13 +33,14 @@ h3{
     top: 5px;
     font-size: 1.5em;
 }
-a{
-    color:rgb(0,0,0);
+
+/* h5{
+    color: black;
     text-decoration: underline;
     font-weight: 800;
     font-size: 1.3em;
     font-family: 'Oswald', sans-serif;
-}
+} */
 .social{
     color:red;
 }

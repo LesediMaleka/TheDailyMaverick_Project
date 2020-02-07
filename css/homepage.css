@@ -3,7 +3,7 @@
 .Dm{
     width: 20%;
     position: relative;
-    left: 130px;
+    left: 150px;
 }
 
 /* This is the logo for the daily scope to represent the political and social news */
@@ -20,18 +20,22 @@
     color:black;
     height: 55vh;
 }
+
 /* this is the div for the small pic image and text on the on the left hand side  */
 .yellow{
     color: black;
     height: 15vh;
+
 }
 /* h1 The Daily scope
 h3 Political and Social */
 
-h1,h3{
+h3{
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    top:5px;
+    top:2px;
+    position: relative;
+    right:40px;
 }
 
 .one{
@@ -55,9 +59,52 @@ h1,h3{
 .card{
     background-color: gray;
 }
-.footer{
+
+/* .footer{
 right: 15px;
+width: 100%;
 }
 .copy{
     left: 8vw;
+    top: 590px;
+} */
+
+.subscribe{
+    position: relative;
+    top:200px;
+    left: 100px;
 }
+
+.footer{
+right: 0px;
+width: 100%;
+}
+.copy{
+    left: 2vw;
+    top: 510px;
+
+}
+.im{
+    position: relative;
+    left: 130px;
+}
+h5{
+    color: black;
+    font-weight: 800;
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+}
+/* .subscribe{
+    width: 10%;
+ position: relative;
+ left: 100px;
+ top: 10px;
+} */
+h1{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    position: relative;
+   
+}
+

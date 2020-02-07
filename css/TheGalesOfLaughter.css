@@ -1,18 +1,26 @@
-
+/* Universal styling */
 body{
     background-color: gray;
     overflow-x: hidden;
 }
-
+/* This is the styling of the logo in the humour page:Gales of Laughter */
 .Gales{
-        top:2%;
+        top: 3%;
         width: 20%;
         position: relative;
         left: 38%;
         background-color: red;
         border-radius: 50px;
         padding: 12px;
+                
     }
+
+/* This is the linebreak below the navBar */
+.mainlinebreak{
+    position: absolute;
+    top: 11%;
+    width: 100%; 
+}
 
 h1,h3{
         position: absolute;
@@ -22,9 +30,10 @@ h1,h3{
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
-
+   
+/* This is the linebreak below the heading */
 .linebreak{
-    position: absolute;
+    position:absolute;
     top: 38%;
     width: 90%;
     left: 5%;
@@ -35,7 +44,7 @@ h1,h3{
     width: 90%;
     left: 5%;
 }
-
+/* This is the styling for the first cartoon */
 .cartoonOne{
     position: absolute;
     left: 5%;
@@ -66,7 +75,7 @@ h1,h3{
     Height:10vh;
 }
 
-/*  This is the styling of the cartoon two */
+/*  This is the styling of the second cartoon */
 .cartoonTwo{
     position: absolute;
     top:91%;
@@ -231,7 +240,7 @@ h1,h3{
 }
 .linebreak6{
     position: absolute;
-    top:349%;
+    top:354%;
     width: 90%;
     left: 5%;
 }   
@@ -240,19 +249,19 @@ h1,h3{
 
 .Opinionista2{
     position: absolute;
-    top: 297%;
+    top: 302%;
     left:5%;
     background-color: white;
     width: 90vw;
     height:50%;
     
 }
- .man{
+ .isolatedPortrait{
     position: absolute;
     bottom:50%;
     left:0%;
     width:90vw;
-    Height:30vh;
+    height:35vh;
 } 
 .cardTitle2{
     position: absolute;
@@ -300,8 +309,8 @@ h1,h3{
 }
 .subscribeButton{
     position: absolute;
-    top: 352%;
-    left: 129px;
+    top: 356%;
+    left: 124px;
     margin: 20px auto;
     border: 0;
     color: white;
@@ -309,4 +318,10 @@ h1,h3{
     height: 50px;
     padding: 6px 10px;
 }
-  
+.copyright{
+    position: fixed;
+    padding-top: 110px;
+    left: 3vw;
+    font-family: 'Old Standard TT', serif;
+    color: black;
+}
