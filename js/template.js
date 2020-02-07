@@ -1,4 +1,3 @@
-/* Open when someone clicks on the span element */
 function openNav() {
   document.getElementById("myNav").style.left = "0";
 }
@@ -7,6 +6,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.left = "-100vw";
 }
+
   //this is the subscribe section
   const subscribebtn = document.querySelector('.subscribe');
   const wrapper = document.querySelector('.popupWrapper')
