@@ -1,0 +1,344 @@
+
+
+/* Universal styling */
+body{
+    background-color: gray;
+    overflow-x: hidden;
+}
+/* This is the styling of the logo in the humour page:Gales of Laughter */
+.Gales{
+        top: 4%;
+        width: 20%;
+        position: relative;
+        left: 38%;
+        background-color: red;
+        border-radius: 50px;
+        padding: 12px;
+                
+    }
+
+/* This is the linebreak below the navBar */
+ .mainlinebreak{
+    position: absolute;
+    top: 11%;
+    width: 100%; 
+}
+
+h1,h3{
+        position: absolute;
+        color: black;
+        top: 30%;
+        left: 14%;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+   
+/* This is the linebreak below the heading */
+.linebreak{
+    position:absolute;
+    top: 38%;
+    width: 90%;
+    left: 5%;
+    border-color: black;
+} 
+.linebreak2{
+    position: absolute;
+    top:84%;
+    width: 90%;
+    left: 5%;
+    border-color: black;
+}
+/* This is the styling for the first cartoon */
+.cartoonOne{
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 90vw;
+    height:30vh;
+}
+ 
+.commentIcon{
+    position: absolute;
+    top:76%;
+    left: 15%;
+    width: 10vw;
+    Height:10vh;
+} 
+.shareIcon{
+    position: absolute;
+    top:76%;
+    left:45%;
+    width:10vw;
+    Height:10vh;
+}
+.thumbsIcon{
+    position: absolute;
+    top:76%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
+
+/*  This is the styling of the second cartoon */
+.cartoonTwo{
+    position: absolute;
+    top:91%;
+    left:5%;
+    width:90vw;
+    Height:30vh;
+}
+.commentIcon1{
+    position: absolute;
+    top:122%;
+    left:15%;
+    width:10vw;
+    Height:10vh;
+}
+.shareIcon1{
+    position: absolute;
+    top:122%;
+    left:45%;
+    width:10vw;
+    Height:10vh;
+}
+.thumbsIcon1{
+    position: absolute;
+    top:122%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
+.linebreak3{
+    position: absolute;
+    top:130%;
+   width: 90%;
+   left: 5%;
+   border-color: black;
+
+}
+
+/* This is the styling of the opinionista section (opinion one) */
+
+.Opinionista{
+    position: absolute;
+    top: 142%;
+    left:5%;
+    background-color: white;
+    width: 90vw;
+    height:50%;
+    
+}
+ .woman{
+    position: absolute;
+    bottom:50%;
+    left:0%;
+    width:90vw;
+    Height:30vh;
+} 
+.cardTitle{
+    position: absolute;
+    bottom:35%; 
+    left: 3%;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+
+}
+.cardText{
+    position: absolute;
+    bottom:21%;
+    left:3%;
+    font-family: 'Old Standard TT', serif; 
+    font-size: 1em;
+    font-weight: 900;
+}
+.name{
+    position: absolute;
+    bottom:11%;
+    left:3%;
+    font-family: 'Old Standard TT', serif;
+    font-size: 14px; 
+}
+.date{
+    position: absolute;
+    bottom:11%;
+    left:80%;
+    font-family: 'Old Standard TT', serif; 
+    font-size: 14px;
+}
+ 
+.linebreak4{
+    position: absolute;
+    top: 194%;
+    width: 90%;
+    left: 5%;
+    border-color: black;
+
+}
+
+
+ /* This is the styling of the cartoon section (cartoon 3)  */
+
+ .cartoonThree{
+    position: absolute;
+    top:201%;
+    left:5%;
+    width:90vw;
+    Height:30vh;
+}
+.commentIcon2{
+    position: absolute;
+    top:231%;
+    left:15%;
+    width:10vw;
+    Height:10vh;
+}
+ .shareIcon2{
+    position: absolute;
+    top:231%;
+    left:45%;
+    width: 10vw;
+    height:10vh;
+   
+} 
+.thumbsIcon2{
+    position: absolute;
+    top:231%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
+.linebreak5{
+    position: absolute;
+    top:240%;
+    width: 90%;
+    left: 5%;
+    border-color: black;
+
+}   
+
+
+/* This is the styling of cartoon section (cartoon four) */
+
+.cartoonFour{
+    position: absolute;
+    top:246%;
+    left:5%;
+    width:90vw;
+    Height:30vh;
+}
+.commentIcon3{
+    position: absolute;
+    top:277%;
+    left:15%;
+    width:10vw;
+    Height:10vh;
+}
+ .shareIcon3{
+    position: absolute;
+    top:277%;
+    left:45%;
+    width: 10vw;
+    height:10vh;
+   
+} 
+.thumbsIcon3{
+    position: absolute;
+    top:277%;
+    left:75%;
+    width:10vw;
+    Height:10vh;
+}
+.linebreak6{
+    position: absolute;
+    top:354%;
+    width: 90%;
+    left: 5%;
+    border-color: black;
+
+}   
+
+/* This is the styling of the opinionista section (opinion two) */
+
+.Opinionista2{
+    position: absolute;
+    top: 302%;
+    left:5%;
+    background-color: white;
+    width: 90vw;
+    height:50%;
+    
+}
+ .isolatedPortrait{
+    position: absolute;
+    bottom:50%;
+    left:0%;
+    width:90vw;
+    height:35vh;
+} 
+.cardTitle2{
+    position: absolute;
+    bottom:35%; 
+    left: 3%;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+
+}
+.cardText2{
+    position: absolute;
+    bottom:20%;
+    left:3%;
+    font-family: 'Old Standard TT', serif; 
+    font-size: 1em;
+    font-weight: 900;
+}
+.name2{
+    position: absolute;
+    bottom:11%;
+    left:3%;
+    font-family: 'Old Standard TT', serif;
+    font-size: 14px; 
+}
+.date2{
+    position: absolute;
+    bottom:11%;
+    left:80%;
+    font-family: 'Old Standard TT', serif; 
+    font-size: 14px;
+}
+ 
+.linebreak7{
+    position: absolute;
+    top: 286%;
+    width: 90%;
+    left: 5%;
+    border-color: black;
+
+}
+
+.linebreak8{
+    position: absolute;
+    top: 380%;
+    width: 90%;
+    left: 5%;
+    border-color: black;
+
+}
+.subscribeButton{
+    position: absolute;
+    top: 356%;
+    left: 124px;
+    margin: 20px auto;
+    border: 0;
+    color: white;
+    width: 100px;
+    height: 50px;
+    padding: 6px 10px;
+}
+.copyright{
+    position: fixed;
+    padding-top: 110px;
+    left: 3vw;
+    font-family: 'Old Standard TT', serif;
+    color: black;
+}
+

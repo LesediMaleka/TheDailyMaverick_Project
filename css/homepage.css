@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-=======
+
 
 
 .Dm{
     width: 20%;
     position: relative;
-    left: 150px;
+    left: 140px;
 }
 
 /* This is the logo for the daily scope to represent the political and social news */
@@ -17,6 +16,20 @@
     border-radius: 50px;
     padding: 12px;
 }
+/* .light{
+    display: none;
+} */
+.img{
+    position: relative;
+    bottom: 25px;
+    width: 78vw;
+    height: 7vh;
+    left: 54px;
+    padding: 5px;
+    /* padding-bottom: 0; */
+    overflow-x: hidden;
+  }
+
 /* this is the div for the big pic image with text below the image  */
 .first{
     color:black;
@@ -38,6 +51,7 @@ h3{
     top:2px;
     position: relative;
     right:40px;
+    color: black;
 }
 
 .one{
@@ -59,7 +73,14 @@ h3{
     padding: 10px;
 }
 .card{
-    background-color: gray;
+    background-color: grey;
+    border-color: black;
+    border-width: 1px 0 0 0 ;
+    /* border-width: 1px 0 0 0 ; */
+}
+hr{
+    border-color: black;
+    border-width: 1px 0 0 0 ;
 }
 
 /* .footer{
@@ -83,7 +104,7 @@ width: 100%;
 }
 .copy{
     left: 2vw;
-    top: 510px;
+    top: 500px;
 
 }
 .im{
@@ -93,15 +114,15 @@ width: 100%;
 h5{
     color: black;
     font-weight: 800;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
     font-family: 'Oswald', sans-serif;
 }
 .head{
     color: black;
     text-decoration: underline;
     font-weight: 800;
-    font-size: 1.3em;
-    font-family: 'Oswald', sans-serif;
+    /* font-size: 1.3em; */
+    font-family: 'Oswald', sans-serif; 
 }
 /* .subscribe{
     width: 10%;
@@ -114,7 +135,18 @@ h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     position: relative;
-   
+    text-decoration: underline;
+}
+.ButtonSubscribe{
+    position: absolute;
+    top: 386%;
+    left: 140px;
+    margin: 20px auto;
+    border: 0;
+    color: white;
+    width: 100px;
+    height: 40px;
+    padding: 6px 10px;
 }
 
->>>>>>> 9296ad0ea3caa089852830874ce55e8dd7f5dcf3
+
