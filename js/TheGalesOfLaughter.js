@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function openNav() {
     document.getElementById("myNav").style.left = "0";
   }
@@ -30,6 +31,10 @@ privacy.addEventListener('click', () =>{
 
 
 
+=======
+
+
+>>>>>>> 468f509fc55193faf7b7dd22188504b574cab0f9
 
   
  
