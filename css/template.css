@@ -179,6 +179,20 @@ h3{
     background-color: blue;
     border-radius: 50px;
 }
+/* this is the div for the big pic image with text below the image  */
+.first{
+    color:black;
+    height: 55vh;
+}
+/* this is the div for the small pic image and text on the on the left hand side  */
+.yellow{
+    color: black;
+    height: 20vh;
+}
+.SocialTwo{
+    padding-top: 10px;
+    padding-right: 10px;
+}
 /* this is the subcribe section */
 
     /* This is the subscribe button */
@@ -240,7 +254,12 @@ h2{
     top: 250px;
     left: 20px;
 }
-
+.DividingHr{
+    border: white 0.5px solid;
+    opacity: 0.5;
+    width: 90vw;
+    margin-left: 5vw;
+}
 input{
     position: relative;
     top: 350px;
