@@ -3,19 +3,33 @@ html{
     overflow-x: hidden;
   }
 body{
-      background-color: gray;
+      background-color: #1b262c;
       overflow: hidden;
       cursor: pointer;
+  }
+  .NavBar{
+      background-color: #171717;
+      height: 55px;
   }
 #menuToggle {
     display: block;
     position: relative;
-    top: 20px;
-    left: 40px;
+    top: 2px;
+    left: 315px;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
 }
+/* ide scroll styling */
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
   
 #menuToggle span {
     display: block;
@@ -24,7 +38,7 @@ body{
     margin-bottom: 5px;
     position: relative;
     right: 35px;
-    background: black;
+    background: white;
     border-radius: 3px;
     z-index: 1;
 }
@@ -33,7 +47,7 @@ body{
     width: 30%;
     position: relative;
     left: 130px;
-    top: 130px;
+    top: 110px;
 }
 
  /* The Overlay (background) */
@@ -98,12 +112,12 @@ body{
     border-color: black;
     border-width: 1px 0 0 0 ;
     }
-.img{
+.logoImage{
   position: relative;
-  bottom: 25px;
+  bottom: 50px;
   width: 78vw;
-  height: 7vh;
-  left: 54px;
+  height: 10vh;
+  right:  20px;
   padding: 5px;
   /* padding-bottom: 0; */
   overflow-x: hidden;
@@ -143,20 +157,51 @@ h3{
       display: block;
 }
 
+.politicalButton{
+    position: relative;
+    left: 0.5%;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(202, 105, 14);
+    background-color: blue;
+    font-family: oswald;
+    
+}
+
+.socialButton{
+    position: relative;
+    /* bottom: 5%; */
+    left: 0.5%;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(202, 16, 16);
+    font-family: oswald;
+    background-color: blue;
+    border-radius: 50px;
+}
 /* this is the subcribe section */
 
-    /* This is the subscribe svg image */
+    /* This is the subscribe button */
 
 .subscribe{
     position: absolute;
-    top: 680%;
-    left: 140px;
-    margin: 20px auto;
-    border: 0;
+    top: 74.4%;
+    left: 53px;
+    border-radius: 50px;
+    width: 250px;
+    height: 40px;
+    background-color:#d63d3f;
+    border: solid 1px white;
+}
+.subscribeHeading{
+    position: relative;
+    transform: translateY(0.5vh);
+    /* bottom: 5%; */
+    left: 0.5%;
+    font-weight: 800;
+    font-size: 25px;
     color: white;
-    width: 100px;
-    height: 50px;
-    padding: 6px 10px;
+    font-family: oswald;
 }
 
 /* This is the newspaper svg image */
@@ -210,7 +255,7 @@ input{
     left: 33px;
     width:300px;
     height: 30px;
-    background: red;
+    background: #d63d3f;
     color: white;
     text-decoration: none;
     padding: 3px 20px ;
@@ -243,10 +288,7 @@ input{
 }
 
 /* This is the privacy policy <p> tag */
-p{
-    position: absolute;
-    top: 500px;
-}
+
 #privacy{
     color:white;
     text-decoration: underline;
@@ -258,51 +300,53 @@ p{
 .footer{
     position: fixed;
     bottom: 0;
-    /* top: 140vw; */
-    background-color: red;
-    width: 100%;
-    height: 10vh;
+    background-color: #0f4c75;
+    width: 100vw;
+    transform: translateY(2vh);
 }
-.icons{
-    width: 5vw;
-    fill: black;
-    top: 30px;
+
+.iconPlaceholder{
+    padding: 0 0 0 7vw;
 }
-.facebook{
-    position: relative;
-    top: 2vh;
-}
-.instagram{
-    position: relative;
-    bottom: 0.8vh;
-    left: 6vw;
-}
-.twitter{
-    position: relative;
-    bottom: 3.6vh;
-    left: 13vw;
+.icon{
+    display: inline-block;
+    width: 7vw;
+    fill: white;
+    transform: translateY(1.5vh);
 }
 .location{
-    width: 7vw;
-    position: relative;
-    bottom: 6.5vh;
-    left: 85vw;
-    color: black;
+    margin-left: 54vw;
+    color: white;
 }
 .copy{
-    position: fixed;
-    padding-top: 110px;
-    left: 4vw;
+    letter-spacing: 0.2rem;
     font-family: 'Old Standard TT', serif;
-    color: black;
+    color:white;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -2vh;
+}
+
+.footerHr{
+    border: white 0.5px solid;
+    opacity: 0.5;
+    width: 90vw;
+    margin-left: 5vw;
 }
 a{
     color: black;
 }
-h5{
+.bigHeading{
     color: black;
     text-decoration: underline;
     font-weight: 800;
     /* font-size: 1.3em; */
+    font-family: 'Oswald', sans-serif;
+}
+.smallHeading{
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 1em;
     font-family: 'Oswald', sans-serif;
 }
