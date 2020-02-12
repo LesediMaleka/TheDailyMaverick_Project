@@ -1,11 +1,12 @@
 
+/* Universal styling */
 body{
     background-color: gray;
     overflow-x: hidden;
 }
-
+/* This is the styling of the logo in the humour page:Gales of Laughter */
 .Gales{
-        top: 3%;
+        top: 4%;
         width: 20%;
         position: relative;
         left: 38%;
@@ -15,11 +16,12 @@ body{
                 
     }
 
-.mainlinebreak{
+/* This is the linebreak below the navBar */
+ .mainlinebreak{
     position: absolute;
     top: 11%;
-    width: 100%;
-    }
+    width: 100%; 
+}
 
 h1,h3{
         position: absolute;
@@ -30,19 +32,22 @@ h1,h3{
         text-align: center;
     }
    
+/* This is the linebreak below the heading */
 .linebreak{
     position:absolute;
     top: 38%;
     width: 90%;
     left: 5%;
+    border-color: black;
 } 
 .linebreak2{
     position: absolute;
     top:84%;
     width: 90%;
     left: 5%;
+    border-color: black;
 }
-
+/* This is the styling for the first cartoon */
 .cartoonOne{
     position: absolute;
     left: 5%;
@@ -73,7 +78,7 @@ h1,h3{
     Height:10vh;
 }
 
-/*  This is the styling of the cartoon two */
+/*  This is the styling of the second cartoon */
 .cartoonTwo{
     position: absolute;
     top:91%;
@@ -107,6 +112,8 @@ h1,h3{
     top:130%;
    width: 90%;
    left: 5%;
+   border-color: black;
+
 }
 
 /* This is the styling of the opinionista section (opinion one) */
@@ -163,6 +170,8 @@ h1,h3{
     top: 194%;
     width: 90%;
     left: 5%;
+    border-color: black;
+
 }
 
 
@@ -199,9 +208,11 @@ h1,h3{
 }
 .linebreak5{
     position: absolute;
-    top:239%;
+    top:240%;
     width: 90%;
     left: 5%;
+    border-color: black;
+
 }   
 
 
@@ -241,6 +252,8 @@ h1,h3{
     top:354%;
     width: 90%;
     left: 5%;
+    border-color: black;
+
 }   
 
 /* This is the styling of the opinionista section (opinion two) */
@@ -294,9 +307,11 @@ h1,h3{
  
 .linebreak7{
     position: absolute;
-    top: 285%;
+    top: 286%;
     width: 90%;
     left: 5%;
+    border-color: black;
+
 }
 
 .linebreak8{
@@ -304,6 +319,8 @@ h1,h3{
     top: 380%;
     width: 90%;
     left: 5%;
+    border-color: black;
+
 }
 .subscribeButton{
     position: absolute;

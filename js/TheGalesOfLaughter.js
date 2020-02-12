@@ -1,3 +1,12 @@
+function openNav() {
+    document.getElementById("myNav").style.left = "0";
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav() {
+    document.getElementById("myNav").style.left = "-100vw";
+  }
+
 const subscribe = document.querySelector('.subscribeButton');
 const wrapper = document.querySelector('.popupWrapper');
 const close = document.querySelector('.close');
@@ -20,14 +29,14 @@ privacy.addEventListener('click', () =>{
 });
 
 
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
+// function openNav() {
+//     document.getElementById("myNav").style.width = "100%";
+//   }
   
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
+//   /* Close when someone clicks on the "x" symbol inside the overlay */
+//   function closeNav() {
+//     document.getElementById("myNav").style.width = "0%";
+//   }
 
 
   
