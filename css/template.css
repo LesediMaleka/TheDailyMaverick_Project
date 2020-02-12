@@ -158,6 +158,12 @@ h3{
     font-family: oswald;
     
 }
+.ByAuthorText{
+    font-family: 'Oswald', sans-serif;
+}
+.paraCardText{
+    font-family: 'Old Standard TT', serif;
+}
 
 .socialButton{
     position: relative;
@@ -345,7 +351,8 @@ a{
     color: black;
     text-decoration: underline;
     font-weight: 800;
-    /* font-size: 1.3em; */
+    font-size: 1.5em;
+
     font-family: 'Oswald', sans-serif;
 }
 .smallHeading{
