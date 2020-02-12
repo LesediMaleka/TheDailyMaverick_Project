@@ -6,7 +6,6 @@ body{
       background-color: #1b262c;
       overflow: hidden;
       cursor: pointer;
-      color: #fff;
   }
   .NavBar{
       background-color: #171717;
@@ -173,14 +172,12 @@ h3{
 }
 /* this is the div for the big pic image with text below the image  */
 .first{
-    color:white;
+    color:black;
     height: 55vh;
-    position: relative;
-    bottom:1vh;
 }
 /* this is the div for the small pic image and text on the on the left hand side  */
 .yellow{
-    color: white;
+    color: black;
     height: 20vh;
 }
 .SocialTwo{
@@ -248,12 +245,7 @@ h2{
     top: 250px;
     left: 20px;
 }
-.DividingHr{
-    border: white 0.5px solid;
-    opacity: 0.5;
-    width: 90vw;
-    margin-left: 5vw;
-}
+
 input{
     position: relative;
     top: 350px;
@@ -339,12 +331,6 @@ input{
     font-weight: 400;
     margin-top: -2vh;
 }
-.card{
-    background-color:#1b262c ;
-    color: white;
-    border-radius: 0;
-    border-width: 0;
-}
 
 .footerHr{
     border: white 0.5px solid;
@@ -352,18 +338,18 @@ input{
     width: 90vw;
     margin-left: 5vw;
 }
-.anchorTagHeading{
-    color:white;
+a{
+    color: black;
 }
 .bigHeading{
-    color: rgb(122, 13, 13);
+    color: black;
     text-decoration: underline;
     font-weight: 800;
     /* font-size: 1.3em; */
     font-family: 'Oswald', sans-serif;
 }
 .smallHeading{
-    color: white;
+    color: black;
     text-decoration: underline;
     font-weight: 800;
     font-size: 1em;
