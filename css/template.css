@@ -14,7 +14,7 @@ body{
 #menuToggle {
     display: block;
     position: relative;
-    top: 2px;
+    bottom: 0.5vh;
     left: 315px;
     z-index: 1;
     -webkit-user-select: none;
@@ -25,7 +25,7 @@ body{
 #menuToggle span {
     display: block;
     width: 35px;
-    height: 4px;
+    height: 2.5px;
     margin-bottom: 5px;
     position: relative;
     right: 35px;
@@ -105,10 +105,10 @@ body{
     }
 .logoImage{
   position: relative;
-  bottom: 50px;
-  width: 78vw;
-  height: 10vh;
-  right:  20px;
+  bottom: 51px;
+  width: 85vw;
+  height: 9vh;
+  right: 16%;
   padding: 5px;
   /* padding-bottom: 0; */
   overflow-x: hidden;
@@ -147,14 +147,23 @@ h3{
 .dropdown:hover .dropdown-content {
       display: block;
 }
-
+.politicalButtonMain{
+    position: absolute;
+    top: 94.4%;
+    left: 6%;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color:#3282b8;
+    border: solid 1px #3282b8;
+}
 .politicalButton{
     position: relative;
     left: 0.5%;
     font-weight: 500;
-    font-size: 15px;
-    color: rgb(202, 105, 14);
-    background-color: blue;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
     font-family: oswald;
     
 }
@@ -173,13 +182,46 @@ h3{
     font-size: 15px;
     color: rgb(202, 16, 16);
     font-family: oswald;
-    background-color: blue;
+    background-color:  #3282b8;
     border-radius: 50px;
 }
+/* this is the blue div with the subheadings */
+.SubheadingDiv{
+    color: white;
+    background-color:  #3282b8;
+    height: 15vh;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 82% 0 2px;
+    
+}
+/* this text is for see more political/social news.News and culture text */
+.SubheadingText{
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 5vh;
+}
+.SubheadingSmallDiv{
+    color: white;
+    height: 35vh;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    margin: 1px;
+}
+.newsColumn{
+    display: inline-block;
+}
+
+
 /* this is the div for the big pic image with text below the image  */
 .first{
     color:black;
     height: 55vh;
+    position: relative;
+    bottom:2.2vh;
 }
 /* this is the div for the small pic image and text on the on the left hand side  */
 .yellow{
@@ -195,7 +237,7 @@ h3{
     /* This is the subscribe button */
 
 .subscribe{
-    position: absolute;
+    position: relative;
     top: 74.4%;
     left: 53px;
     border-radius: 50px;
@@ -348,16 +390,14 @@ a{
     color: black;
 }
 .bigHeading{
-    color: black;
-    text-decoration: underline;
+    color: white;
     font-weight: 800;
     font-size: 1.5em;
 
     font-family: 'Oswald', sans-serif;
 }
 .smallHeading{
-    color: black;
-    text-decoration: underline;
+    color: white;
     font-weight: 800;
     font-size: 1em;
     font-family: 'Oswald', sans-serif;
