@@ -20,7 +20,12 @@ body{
     -webkit-user-select: none;
     user-select: none;
 }
-
+.card{
+    background-color:#1b262c ;
+    color: white;
+    border-radius: 0;
+    /* border-width: 0; */
+}
   
 #menuToggle span {
     display: block;
@@ -203,6 +208,14 @@ h3{
     text-transform: uppercase;
     position: relative;
     top: 5vh;
+    font-family: 'Oswald', sans-serif;
+}
+.SubheadingTextMoreNews{
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
 }
 .SubheadingSmallDiv{
     color: white;
@@ -401,4 +414,13 @@ a{
     font-weight: 800;
     font-size: 1em;
     font-family: 'Oswald', sans-serif;
+}
+.footerHr{
+    border: white 0.5px solid;
+    opacity: 0.5;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.anchorTagHeading{
+    color:white;
 }
