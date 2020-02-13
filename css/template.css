@@ -174,9 +174,11 @@ h3{
 }
 .ByAuthorText{
     font-family: 'Oswald', sans-serif;
+    color: #fff;
 }
 .paraCardText{
     font-family: 'Old Standard TT', serif;
+    color: #fff;
 }
 
 .socialButton{
@@ -406,14 +408,30 @@ a{
     color: white;
     font-weight: 800;
     font-size: 1.5em;
-
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
-.smallHeading{
+.bigHeadingOne{
     color: white;
     font-weight: 800;
-    font-size: 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    position: relative;
+    left: 8vw;
+
+}
+.smallHeading{
+    color: rgb(114, 110, 110);
+    font-weight: 800;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: 3vh;
+    right: 2vw;
+}
+.pText{
+    padding: 10px;
 }
 .footerHr{
     border: white 0.5px solid;
@@ -423,4 +441,5 @@ a{
 }
 .anchorTagHeading{
     color:white;
+    text-transform: uppercase;
 }
