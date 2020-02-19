@@ -63,7 +63,7 @@ body{
     left:-100vw;
     top: 0;
     z-index: 5;
-    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: #1b262c; /* Black fallback color */
     /* background-color: rgba(0,0,0, 0.9); Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -301,7 +301,7 @@ h3{
    display: none; 
 }
 .popup{
-    background: black;
+    background: #1b262c;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     width:100%;
@@ -465,3 +465,39 @@ a{
     color:white;
     text-transform: uppercase;
 }
+
+.MainHeadingButton{
+    position: relative;
+    left: 25vw;
+    bottom: 56vh;
+    border-radius: 50px;
+    width: 290px;
+    height: 45px;
+    padding-top: 5px;
+    background-color:#d63d3f;
+    border: solid 1px white;
+    text-transform: uppercase;
+    z-index: 2;
+    animation-name: HeadingMotion;
+    animation-duration: 4s;
+}
+.MainHeading{
+    position: relative;
+    transform: translateY(0.5vh);
+    /* bottom: 5%; */
+    left: 0.5%;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    font-family: 'Old Standard TT', serif;
+    text-transform: uppercase;
+    
+}  
+  @keyframes HeadingMotion {
+    from {transform: translateX(170px);
+    }
+    to {transform: translateX(-5px);
+    }
+  }
+
+
