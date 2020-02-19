@@ -13,12 +13,9 @@ function openNav() {
     const close = document.querySelector('.close');
     const signmeup = document.querySelector('#signmeup');
     const privacy = document.querySelector('#Privacy');
-   
-    
-    
+  
      subscribebtn.addEventListener('click', () =>{
          wrapper.style.display = 'block'
-    
      });    
      
      close.addEventListener('click', () =>{
@@ -53,7 +50,7 @@ function openNav() {
     
     
     // this are the media links
-    facebook.addEventListener('click', () =>{
+     facebook.addEventListener('click', () =>{
         window.open('https://www.facebook.com/dailymaverick')
       });
       instagram.addEventListener('click', () =>{
@@ -66,44 +63,119 @@ function openNav() {
         window.open('https://www.google.com/')
       });
 
-      //API
+
+      
+//API 
+
+// //First API
+// // Politics Weighing us down Article.The first big article on Political news
 // const articleContent = document.querySelector('.PoliticsWeighingUsDownDiv');
-// const newsImage = document.querySelector('.PoliticsWeighingUsDownImage');
+// const newsImage = document.querySelector('#PoliticsWeighingUsDownImage');
 
-// //API 
-// const key = 'd56b510c5f7e4c78a8d27c5305f3248e';
 
-// const getPoliticsWeighingUsDownInfo = async () => {
-//     //API endpoint
-//     const base = 'http://newsapi.org/v2/top-headlines?country=us&apiKey=d56b510c5f7e4c78a8d27c5305f3248e';
+//      //API endpoint
+//      const base = 'http://newsapi.org/v2/top-headlines?country=us&apiKey=17d954474c1a4e40962725a293644143';
 
-//     //? is to make a request/query.The knock-knock
-//     const query = `?apiKey= ${key}`;
-//     const response = await fetch (base + query);
+//     const getPoliticsWeighingUsDownInfo = async () => {
+  
+//     const response = await fetch (base);
 
 //     const data = await response.json();
+ 
+//      return data;
+//     };
+
+//     getPoliticsWeighingUsDownInfo()
 //     .then(data => {
 //         PoliticsWeighingUsDownData = data;
 //         console.log(PoliticsWeighingUsDownData);
 
 //    articleContent.innerHTML = `
-//         <a href="PoliticsWeighingUsDown.html">
+        
+//         <br>
+//                 <a href="PoliticsWeighingUsDown.html">
+//                     <div class="row first">
+                                
+//                         <div class="col PoliticsWeighingUsDownDiv">
+//                             <div class="card">
+//                             <img src="asssets/images/pics/politicsWeighingUsDown.jpeg" class="card-img-top PoliticsWeighingUsDownImage" alt="political issues: political matters weighing us down">
+//                                 <div class="card-body">
+
+//                                     <h3 class="card-title bigHeading">
+//                                         <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${PoliticsWeighingUsDownData.articles.title}</a>
+//                                     </h3>
+
+//                                     <strong>
+//                                     <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">By Author: ${PoliticsWeighingUsDownData.articles.author}</h6>
+//                                     </strong>
+
+//                                     <p class="paraCardText">${PoliticsWeighingUsDownData.articles.description}</p>
+                
+//                                     <button  class="politicalButtonMain">
+//                                     <h3 class="politicalButton">POLITICAL</h3>
+//                                     </button>
+                                
+//                                 </div>
+//                             </div>
+
+//                         </div>
+//                     </div>
+//                 </a>
+//                 <br><br><br><br><br><br>
+//    `;
+
+//    newsImage.setAttribute('src', PoliticsWeighingUsDownData.articles.urlToImage); 
+
+// }).catch(err => console.log (err));
+
+
+// getPoliticsWeighingUsDownInfo();
+
+
+
+//Second API 
+// upcoming elections Article.The second big article on Political news
+      
+//       const  UpcomingElectionsDiv = document.querySelector('#UpcomingElectionsDiv');
+//       const UpcomingElectionsImage = document.querySelector('#UpcomingElectionsImage');
+
+
+
+//       const getUpcomingElectionsInfo = async () => {
+//       //API endpoint
+//      const base = 'http://newsapi.org/v2/top-headlines?country=za&category=business&apiKey=d56b510c5f7e4c78a8d27c5305f3248e';
+
+//      //? is to make a request/query.The knock-knock
+    
+//     const response = await fetch (base);
+
+//     const data = await response.json()
+
+
+//     .then(data => {
+//         UpcomingElectionsData = data;
+//         console.log(UpcomingElectionsData);
+
+//         UpcomingElectionsDiv.innerHTML = `
+        
+//    <br>
+//         <a href="UpcomingElections.html">
 //             <div class="row first">
                         
-//                 <div class="col PoliticsWeighingUsDownDiv">
+//                 <div class="col PoliticsWeighingUsDownDiv" id="UpcomingElectionsImage">
 //                     <div class="card">
-//                             <img src="asssets/images/pics/politicsWeighingUsDown.jpeg" class="card-img-top PoliticsWeighingUsDownImage" alt="political issues: political matters weighing us down">
+//                     <img src="asssets/images/pics/politicsVoting.jpeg" class="card-img-top" alt="political issues:voting,vote of confidence" id="UpcomingElectionsImage" >
 //                         <div class="card-body">
 
 //                             <h3 class="card-title bigHeading">
-//                                 <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${PoliticsWeighingUsDownData.article}</a>
+//                                 <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${UpcomingElectionsData.articles[2].title}</a>
 //                             </h3>
 
 //                             <strong>
-//                             <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">By Author: ${PoliticsWeighingUsDownData.author}</h6>
+//                             <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">By Author: ${UpcomingElectionsData.articles[2].author}</h6>
 //                             </strong>
 
-//                             <p class="paraCardText">${PoliticsWeighingUsDownData.description}.adipisicing elit.ipsum dolor, sit amet consectetur consectetur.For sum dolor, sit amet consectetur.</p>
+//                             <p class="paraCardText">${UpcomingElectionsData.articles[2].description}</p>
         
 //                             <button  class="politicalButtonMain">
 //                             <h3 class="politicalButton">POLITICAL</h3>
@@ -115,11 +187,78 @@ function openNav() {
 //                 </div>
 //             </div>
 //         </a>
+//         <br><br><br><br><br><br>
 //    `;
-//    newsImage.setAttribute('src', PoliticsWeighingUsDownData.urlToImage); 
+
+//    UpcomingElectionsImage.setAttribute('src', UpcomingElectionsData.articles[2].url); 
 
 // }).catch(err => console.log (err));
-// console.log(data);
+
 // };
-// getPoliticsWeighingUsDownInfo();
+// getUpcomingElectionsInfo();
+
+
+// //Third API 
+// // Communinty fighting poverty Article.The first big article on Social news
+      
+// const  PovertyDiv = document.querySelector('.PovertyDiv');
+// const PovertyImage= document.querySelector('#PovertyImage');
+
+
+
+// const getPovertyInfo = async () => {
+// //     //API endpoint
+// const base = 'http://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=d56b510c5f7e4c78a8d27c5305f3248e';
+
+// //     //? is to make a request/query.The knock-knock
+
+// const response = await fetch (base);
+
+// const data = await response.json()
+
+
+// .then(data => {
+//   PovertyData = data;
+//   console.log(PovertyData);
+
+//   PovertyDiv.innerHTML = `
+  
+// <br>
+//   <a href="UpcomingElections.html">
+//       <div class="row first">
+                  
+//           <div class="col PoliticsWeighingUsDownDiv" id="UpcomingElectionsImage">
+//               <div class="card">
+//               <img src="https://asset.kompas.com/crops/tgg3al4xfOPilFCWu-VEB1eRU2k=/278x0:1390x741/780x390/filters:watermark(data/photo/2019/08/13/5d528ba5c908a.png,0,-0,1)/data/photo/2020/02/18/5e4bc63a0d49f.jpg" class="card-img" alt="social issue:Fighting poverty" loading ="slow" id="PovertyImage" style="height: 40.7vh;">
+//                   <div class="card-body">
+
+//                       <h3 class="card-title bigHeading">
+//                           <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${PovertyData.articles[2].title}</a>
+//                       </h3>
+
+//                       <strong>
+//                       <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">By Author: ${PovertyData.articles[2].author}</h6>
+//                       </strong>
+
+//                       <p class="paraCardText">${PovertyData.articles[2].description}</p>
+  
+//                       <button  class="politicalButtonMain">
+//                       <h3 class="politicalButton">POLITICAL</h3>
+//                       </button>
+                  
+//                   </div>
+//               </div>
+
+//           </div>
+//       </div>
+//   </a>
+//   <br><br><br><br><br><br>
+// `;
+
+// PovertyImage.setAttribute('src', PovertyData.articles[2].url); 
+
+// }).catch(err => console.log (err));
+
+// };
+// getPovertyInfo();
 
