@@ -63,7 +63,7 @@ body{
     left:-100vw;
     top: 0;
     z-index: 5;
-    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: #1b262c; /* Black fallback color */
     /* background-color: rgba(0,0,0, 0.9); Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -302,7 +302,7 @@ h3{
    display: none; 
 }
 .popup{
-    background: black;
+    background: #1b262c;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     width:100%;
@@ -350,19 +350,19 @@ input{
     cursor: pointer;
 }
 
-#discover{
+/* #discover{
     position: absolute;
     left: 24%;
     color: white;
     font-size: 1.9em;
-}
+} */
 
 /* This is the no thanks message underneath the sign me up button */
 .Thanks{
     position: absolute;
     text-decoration: underline;
     color: white;
-    top: 460px;
+    top: 77vh;
     left: 120px;
 }
 
@@ -372,9 +372,20 @@ input{
     color:white;
     text-decoration: underline;
 }
+.DiscoverText{
+    color: #fff;
+    position: relative;
+    font-size: 1.9em;
+    
+}
 #para{
     color: white;
     
+}
+.PrivacyText{
+    color: white;
+    position: relative;
+    top: 29vh;
 }
 .footer{
     position: fixed;
@@ -396,6 +407,7 @@ input{
 .location{
     margin-left: 54vw;
     color: white;
+    fill:color;
 }
 .copy{
     letter-spacing: 0.2rem;
@@ -413,7 +425,7 @@ input{
     margin-left: 5vw;
 }
 a{
-    color: black;
+    color: #fff;
 }
 .bigHeading{
     color: white;
@@ -454,3 +466,39 @@ a{
     color:white;
     text-transform: uppercase;
 }
+
+.MainHeadingButton{
+    position: relative;
+    left: 25vw;
+    bottom: 56vh;
+    border-radius: 50px;
+    width: 290px;
+    height: 45px;
+    padding-top: 5px;
+    background-color:#d63d3f;
+    border: solid 1px white;
+    text-transform: uppercase;
+    z-index: 2;
+    animation-name: HeadingMotion;
+    animation-duration: 4s;
+}
+.MainHeading{
+    position: relative;
+    transform: translateY(0.5vh);
+    /* bottom: 5%; */
+    left: 0.5%;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    font-family: 'Old Standard TT', serif;
+    text-transform: uppercase;
+    
+}  
+  @keyframes HeadingMotion {
+    from {transform: translateX(170px);
+    }
+    to {transform: translateX(-5px);
+    }
+  }
+
+
