@@ -1,20 +1,48 @@
-.header{
-    position: relative;
-    bottom: 70px;
+
+ /* this is the subcribe button  */
+.subscribeBttn{
+  position: relative;
+  left: 53px;
+  border-radius: 50px;
+  width: 250px;
+  height: 40px;
+  background-color:#d63d3f;
+  border: solid 1px white;
+}
+.subscribeHead{
+  position: relative;
+  transform: translateY(0.5vh);
+  /* bottom: 5%; */
+  left: 0.5%;
+  font-weight: 800;
+  font-size: 25px;
+  color: white;
+  font-family: oswald;
+}
+.drugUsage{
+  color: white;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
 
+/* .SocialMediaAffectsDiv{
+  padding-left: 30px 30px;
+  position: relative;
+  top: 7px;
+} */
+
+
+.Table, th, td{
+  color: white;
+  border: 10px solid #1b262c ;
+  background-color: #1b262c;
+
+}
+/* 
+tr{
+  color: white;
+} */
+
+.exchange{
+  position: relative;
+ left: 7px;
+}
