@@ -1,49 +1,68 @@
 
-// function openNav() {
-//     document.getElementById("myNav").style.left = "0";
-//   }
+ function openNav() {
+     document.getElementById("myNav").style.left = "0";
+   }
   
-//   /* Close when someone clicks on the "x" symbol inside the overlay */
-//   function closeNav() {
-//     document.getElementById("myNav").style.left = "-100vw";
-//   }
+    // Close when someone clicks on the "x" symbol inside the overlay */
+   function closeNav() {
+     document.getElementById("myNav").style.left = "-100vw";
+   }
 
-// const subscribe = document.querySelector('.subscribeButton');
-// const wrapper = document.querySelector('.popupWrapper');
-// const close = document.querySelector('.close');
+ const subscribeButton = document.querySelector('.subscribeButton');
+ const wrapper = document.querySelector('.popupWrapper');
+ const close = document.querySelector('.close');
+ const signmeup = document.querySelector('#signmeup');
+ const privacy = document.querySelector('#Privacy');
 
+ subscribeButton.addEventListener('click', () =>{
+    wrapper.style.display = 'block'
 
-// subscribe.addEventListener('click', () =>{
-//     wrapper.style.display = 'block'
+ });   
+ close.addEventListener('click', () =>{
+     wrapper.style.display = 'none'
+    });
 
-// });   
-// close.addEventListener('click', () =>{
-//     wrapper.style.display = 'none'
-//    });
+    const pW = document.querySelector('.popupWrapper');
+    
+     pW.addEventListener('click',  e=>{
+        
+        if(e.target.className === 'popupWrapper'){
+            wrapper.style.display = 'none';
+        }
+    
+       });
+    
 
-//    signmeup.addEventListener('click', () =>{
-//     window.open('https://www.dailymaverick.co.za/about/newsletter/')
-// });
-// privacy.addEventListener('click', () =>{
-//     window.open('https://www.dailymaverick.co.za/privacy-policy/')
+    signmeup.addEventListener('click', () =>{
+     window.open('https://www.dailymaverick.co.za/about/newsletter/')
+ });
+ 
+   privacy.addEventListener('click', () =>{
+     window.open('https://www.dailymaverick.co.za/privacy-policy/')
 
-// });
+ });
 
-
-// function openNav() {
-//     document.getElementById("myNav").style.width = "100%";
-//   }
-  
-//   /* Close when someone clicks on the "x" symbol inside the overlay */
-//   function closeNav() {
-//     document.getElementById("myNav").style.width = "0%";
-//   
-
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-//   function closeNav() {
-//     document.getElementById("myNav").style.left = "-100vw";
-// }
-
+ // this is the footer section
+ const facebook = document.querySelector('.facebook')
+ const instagram = document.querySelector('.instagram')
+ const twitter = document.querySelector('.twitter')
+ const locationSearch = document.querySelector('.location')
+ 
+ 
+ // this are the media links
+  facebook.addEventListener('click', () =>{
+     window.open('https://www.facebook.com/dailymaverick')
+   });
+   instagram.addEventListener('click', () =>{
+     window.open('https://www.instagram.com/dailymaverick/')
+   });
+    twitter.addEventListener('click', () =>{
+      window.open('https://twitter.com/dailymaverick?lang=en')
+    });
+  locationSearch.addEventListener('click', () =>{
+     window.open('https://www.google.com/')
+   });
+ 
 
 
 
