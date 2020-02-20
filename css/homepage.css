@@ -1,34 +1,48 @@
 
-  /* this is the div for the big pic image with text below the image  */
-.second{
-  color:black;
-  height: 55vh;
+ /* this is the subcribe button  */
+.subscribeBttn{
   position: relative;
-  bottom:1.3vh;
+  left: 53px;
+  border-radius: 50px;
+  width: 250px;
+  height: 40px;
+  background-color:#d63d3f;
+  border: solid 1px white;
 }
-
-.button {
-  padding: 15px 20px;
-  font-size: 20px;
-  left: 50px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 50%;
+.subscribeHead{
   position: relative;
-  bottom: 250px;
-  /* box-shadow: 0 9px #999; */
+  transform: translateY(0.5vh);
+  /* bottom: 5%; */
+  left: 0.5%;
+  font-weight: 800;
+  font-size: 25px;
+  color: white;
+  font-family: oswald;
+}
+.drugUsage{
+  color: white;
 }
 
-.button:hover {background-color: #3e8e41}
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+/* .SocialMediaAffectsDiv{
+  padding-left: 30px 30px;
+  position: relative;
+  top: 7px;
+} */
+
+
+.Table, th, td{
+  color: white;
+  border: 10px solid #1b262c ;
+  background-color: #1b262c;
+
 }
-  
+/* 
+tr{
+  color: white;
+} */
 
+.exchange{
+  position: relative;
+ left: 7px;
+}
