@@ -22,7 +22,12 @@
 .drugUsage{
   color: white;
 }
+.MainHeadingButton{
+  position: relative;
+  left: 25vw;
+  bottom: 120vh;
 
+}
 
 /* .SocialMediaAffectsDiv{
   padding-left: 30px 30px;
