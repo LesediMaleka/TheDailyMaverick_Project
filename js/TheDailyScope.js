@@ -106,14 +106,17 @@ const UpcomingElectionsImage = document.querySelector('#UpcomingElectionsImage')
                                 <div class="card-body">
 
                                     <h3 class="card-title bigHeading">
-                                        <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${newsData.articles[8].title}</a>
+                                        <a class="anchorTagHeading PoliticsWeighingUsDownHeading MainAPIheading" href="#">${newsData.articles[8].title}</a>
+
+                                       
                                     </h3>
 
                                     <strong>
                                     <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">  Author's Name  And Surname: ${newsData.articles[8].author}</h6>
                                     </strong>
 
-                                    <p class="paraCardText">
+                                    <p class="paraCardText MainAPItext">
+                                   
                                     ${newsData.articles[8].content}
 
                                     <br><br>
@@ -143,16 +146,18 @@ const UpcomingElectionsImage = document.querySelector('#UpcomingElectionsImage')
                         <div class="card-body">
 
                             <h3 class="card-title bigHeading">
-                                <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${newsData.articles[5].title}</a>
+                                <a class="anchorTagHeading PoliticsWeighingUsDownHeading MainAPIheading" href="#">${newsData.articles[5].title}</a>
+                               
                             </h3>
 
                             <strong>
                             <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">  Author's Name  And Surname: ${newsData.articles[5].author}</h6>
                             </strong>
 
-                            <p class="paraCardText">${newsData.articles[5].content}
+                            <p class="paraCardText MainAPItext">${newsData.articles[5].content}
                             </p>
                         
+                           
                             
                             <button  class="politicalButtonMain">
                             <h3 class="politicalButton">POLITICAL</h3>
@@ -212,9 +217,9 @@ const links = ['PeoplesViews.html', 'UnionAsembly.html', 'delegations.html', 'me
                   <div class="card">
                     <img src="${MainData.articles[i].urlToImage}" class="card-img-top" alt="Image is from ${MainData.articles[i].source}" id="PeoplesViewImage" style="height: 14.7vh;">
                     <div class="card-body">
-                      <h3 class="card-title SubheadingTextMoreNews PeoplesViewHeading">${MainData.articles[i].title}</h3> 
+                      <h3 class="card-title SubheadingTextMoreNews PeoplesViewHeading BigAPIheading">${MainData.articles[i].title}</h3> 
                       <p class="card-text paraCardText SmallTextAPI">
-                      <strong class="card-text ByAuthorText">
+                      <strong class="card-text ByAuthorText SmallTextAPI">
                        ${MainData.articles[i].author}:
                      </strong>${MainData.articles[i].description}</p>
                       <div class="gradient"></div>

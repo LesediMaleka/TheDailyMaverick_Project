@@ -35,24 +35,24 @@ margin-left: 3%;
 .PoliticsWeighingUsDownDiv{
     position: relative;
     top: 1.1vh;
-    height: 65vh;
+    height: 40vh;
 }
 
 #UpcomingElectionsDiv{
-    height: 65vh;
+    height: 60vh;
     position: relative;
-    top: 19vh;
+    top: 23vh;
 }
 /* different api endpoint heading and paragraph text for the two big political news*/
 .MainAPIheading{
-    height: 2vh !important;
+    height: 800px;
     overflow: hidden;
-    padding-left: 5vw;
+   
 }
-.MainAPItext{
-    height: 5% !important;
+/* .MainAPItext{
+    height: 10% !important;
     overflow: hidden;
-}
+} */
 /*the five api endpoint and heading text paragraph text */
 .BigAPIheading{
     height: 2px !important;
@@ -100,7 +100,7 @@ margin-left: 3%;
  .delegationsDiv{
     width: 13.15rem;
     position: relative;
-    top: 22vh;
+    top: 13vh;
     height: 47vh;
     right: 2.5vw;
  
@@ -109,7 +109,7 @@ margin-left: 3%;
   .mediaBriefDiv{
     width: 13.15rem;
     position: relative;
-    bottom: 33.62vh;
+    bottom: 42vh;
     left: 47vw;
     height: 47vh;
 
@@ -118,7 +118,7 @@ margin-left: 3%;
  .ElectionsDiv{
     width: 13.15rem;
     position: relative;
-    top: 38.5vh;
+    top: 24.5vh;
     height: 47vh;
     right: 2.5vw;
  
@@ -127,7 +127,7 @@ margin-left: 3%;
  .MinistersDiv{
     width: 13.15rem;
     position: relative;
-    bottom: 16.7vh;
+    bottom: 30.7vh;
     left: 47vw;
     height: 47vh;
 
@@ -137,7 +137,7 @@ margin-left: 3%;
 .PeoplesOpnionDiv{
     width: 13.15rem;
     position: relative;
-    top: 58vh;
+    top: 36vh;
     height: 47vh;
     right: 2.5vw;
  
@@ -146,7 +146,7 @@ margin-left: 3%;
  .StructuresDiv{
     width: 13.15rem;
     position: relative;
-    top: 3vh;
+    bottom: 19.5vh;
     left: 47vw;
      height: 47vh;
 
