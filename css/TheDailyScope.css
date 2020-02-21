@@ -59,8 +59,15 @@ margin-left: 3%;
     overflow: hidden;  
 }
 .SmallTextAPI{
-    height: 2px !important;
-    overflow: hidden; 
+    height: 100px;
+    overflow: hidden!important; 
+}
+.gradient{
+    height: 25px;
+    background: linear-gradient(0deg, rgba(27,38,44,1) 0%, rgba(27,38,44,0) 100%);
+    transform:translateY(-40px);
+    
+
 }
 
  /* this is the five different divs styled to have the same look and feel using the same different source base */

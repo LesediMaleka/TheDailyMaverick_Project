@@ -213,11 +213,11 @@ const links = ['PeoplesViews.html', 'UnionAsembly.html', 'delegations.html', 'me
                     <img src="${MainData.articles[i].urlToImage}" class="card-img-top" alt="Image is from ${MainData.articles[i].source}" id="PeoplesViewImage" style="height: 14.7vh;">
                     <div class="card-body">
                       <h3 class="card-title SubheadingTextMoreNews PeoplesViewHeading">${MainData.articles[i].title}</h3> 
-                      <p class="card-text paraCardText">
+                      <p class="card-text paraCardText SmallTextAPI">
                       <strong class="card-text ByAuthorText">
                        ${MainData.articles[i].author}:
                      </strong>${MainData.articles[i].description}</p>
-                      
+                      <div class="gradient"></div>
                       <button  class="politicalButtonMain">
                         <h3 class="politicalButton">POLITICAL</h3>
                       </button>
