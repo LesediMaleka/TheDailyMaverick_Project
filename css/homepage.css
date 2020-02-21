@@ -25,8 +25,26 @@
 .MainHeadingButton{
   position: relative;
   left: 25vw;
-  bottom: 120vh;
+  bottom: 123vh;
 
+}
+.MainAPIheading{
+  height: 2vh !important;
+  overflow: hidden;
+  padding-left: 5vw;
+}
+.MainAPItext{
+  height: 5% !important;
+  overflow: hidden;
+}
+/*the five api endpoint and heading text paragraph text */
+.BigAPIheading{
+  height: 2px !important;
+  overflow: hidden;  
+}
+.SmallTextAPI{
+  height: 2px !important;
+  overflow: hidden; 
 }
 
 /* .SocialMediaAffectsDiv{
