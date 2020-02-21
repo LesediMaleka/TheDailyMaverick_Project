@@ -1,48 +1,48 @@
-function openNav() {
-  document.getElementById("myNav").style.left = "0";
-}
+// function openNav() {
+//   document.getElementById("myNav").style.left = "0";
+// }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-  document.getElementById("myNav").style.left = "-100vw";
-}
+// /* Close when someone clicks on the "x" symbol inside the overlay */
+// function closeNav() {
+//   document.getElementById("myNav").style.left = "-100vw";
+// }
 
 //   //this is the subscribe section
-  const subscribebtn = document.querySelector('.ButtonSubscribe');
-  const wrapper = document.querySelector('.popupWrapper')
-  const close = document.querySelector('.close');
+  // const subscribebtn = document.querySelector('.ButtonSubscribe');
+  // const wrapper = document.querySelector('.popupWrapper')
+  // const close = document.querySelector('.close');
   // const signmeup = document.querySelector('#signmeup');
   // const privacy = document.querySelector('#Privacy');
  
   
   
-   subscribebtn.addEventListener('click', () =>{
-       wrapper.style.display = 'block'
+  //  subscribebtn.addEventListener('click', () =>{
+  //      wrapper.style.display = 'block'
   
-   });    
+  //  });    
    
-   close.addEventListener('click', () =>{
-    wrapper.style.display = 'none'
-   });
+  //  close.addEventListener('click', () =>{
+  //   wrapper.style.display = 'none'
+  //  });
   
-   const pW = document.querySelector('.popupWrapper');
+  //  const pW = document.querySelector('.popupWrapper');
   
-   pW.addEventListener('click',  e=>{
+  //  pW.addEventListener('click',  e=>{
       
-      if(e.target.className === 'popupWrapper'){
-          wrapper.style.display = 'none';
-      }
+  //     if(e.target.className === 'popupWrapper'){
+  //         wrapper.style.display = 'none';
+  //     }
   
-     });
+  //    });
   
 
-  signmeup.addEventListener('click', () =>{
-      window.open('https://www.dailymaverick.co.za/about/newsletter/')
-  });
-  privacy.addEventListener('click', () =>{
-      window.open('https://www.dailymaverick.co.za/privacy-policy/')
+  // signmeup.addEventListener('click', () =>{
+  //     window.open('https://www.dailymaverick.co.za/about/newsletter/')
+  // });
+  // privacy.addEventListener('click', () =>{
+  //     window.open('https://www.dailymaverick.co.za/privacy-policy/')
   
-  });
+  // });
  
 
 
