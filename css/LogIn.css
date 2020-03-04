@@ -152,4 +152,69 @@ button:hover {
       width: 100%;
     }
   } */
+
+
+  /* filter and local storage css */
+
+  
+.box{
+  border-radius: 3px;
+  padding: 10px;
+  /* background: red; */
+}
+.welcome{
+  text-align: center;
+}
+.search{
+  grid-row: 2/4;
+  text-align: center;
+}
+.images{
+  grid-row: 4;
+}
+
+
+/* forms */
+div.search form input[type=text]{
+  border-radius: 50px 0 0 50px;
+  width: 30%;
+  border: none;
+  padding-left: 10px;
+  color: black;
+}
+div.search form input[type=submit]{
+  border-radius: 0 50px 50px 0;
+  width: 10%;
+  border: none;
+  background: #00a8cc;
+}
+
+/* images */
+.card{
+  height: 200px;
+  width: 32%;
+  display: inline-block;
+  padding: 1px;
+}
+.card-image{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+}
+figure{
+  background: #27496d;
+  width: 100%;
+  margin: 0;
+  transform: translateY(-13px);
+  text-align: center;
+  border-radius: 3px;
+}
+
+.filtered{
+  display: none;
+}
+.inputSearchBar{
+  background-color: pink;
+}
   
