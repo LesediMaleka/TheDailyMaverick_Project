@@ -14,7 +14,7 @@
  const subscribeButton = document.querySelector('.subscribeButton');
  const wrapper = document.querySelector('.popupWrapper');
  const close = document.querySelector('.close');
- const signmeup = document.querySelector('#signmeup');
+//  const signmeup = document.querySelector('#signmeup');
  const privacy = document.querySelector('#Privacy');
 
  subscribeButton.addEventListener('click', () =>{
@@ -36,9 +36,9 @@
        });
     
 
-    signmeup.addEventListener('click', () =>{
-     window.open('https://www.dailymaverick.co.za/about/newsletter/')
- });
+//     signmeup.addEventListener('click', () =>{
+//      window.open('https://www.dailymaverick.co.za/about/newsletter/')
+//  });
  
    privacy.addEventListener('click', () =>{
      window.open('https://www.dailymaverick.co.za/privacy-policy/')
