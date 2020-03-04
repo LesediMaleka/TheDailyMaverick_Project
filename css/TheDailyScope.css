@@ -21,3 +21,136 @@
 .drugUsage{
     color: white;
 }
+/* .newsColumns{
+display:block;
+width: 12.15rem;
+padding-left: 15px;
+position: relative;
+bottom: 2vh;
+margin-left: 3%;
+} */
+
+
+/* this is the two different divs styled to have the same look and feel using one same  source bases to look like the big social articls */
+.PoliticsWeighingUsDownDiv{
+    position: relative;
+    top: 1.1vh;
+    height: 40vh;
+}
+
+#UpcomingElectionsDiv{
+    height: 60vh;
+    position: relative;
+    top: 23vh;
+}
+/* different api endpoint heading and paragraph text for the two big political news*/
+.MainAPIheading{
+    height: 800px;
+    overflow: hidden;
+   
+}
+/* .MainAPItext{
+    height: 10% !important;
+    overflow: hidden;
+} */
+/*the five api endpoint and heading text paragraph text */
+.BigAPIheading{
+    height: 2px !important;
+    overflow: hidden;  
+}
+.SmallTextAPI{
+    height: 100px;
+    overflow: hidden!important; 
+}
+.gradient{
+    height: 25px;
+    background: linear-gradient(0deg, rgba(27,38,44,1) 0%, rgba(27,38,44,0) 100%);
+    transform:translateY(-40px);
+    
+
+}
+
+ /* this is the five different divs styled to have the same look and feel using the same different source base */
+.APIdiv{
+    height: 55vh !important;
+}
+
+ /* this is the 1st of the small article of the political news */
+.PeoplesViewDiv{
+    width: 13.15rem;
+    position: relative;
+    top: 0.5vh;
+    height: 47vh;
+    right: 2.5vw;
+ 
+}
+
+ /* this is the 2nd of the small article of the political news */
+.UnionAsemblyDiv{
+    width: 13.15rem;
+    position: relative;
+    bottom: 54.7vh;
+    left: 47vw;
+    height: 47vh;
+
+}
+
+
+ /* this is the 3rd of the small article of the political news */
+ .delegationsDiv{
+    width: 13.15rem;
+    position: relative;
+    top: 13vh;
+    height: 47vh;
+    right: 2.5vw;
+ 
+}
+/* this is the 4th of the small article of the political news */
+  .mediaBriefDiv{
+    width: 13.15rem;
+    position: relative;
+    bottom: 42vh;
+    left: 47vw;
+    height: 47vh;
+
+}
+ /* this is the 5th of the small article of the political news */
+ .ElectionsDiv{
+    width: 13.15rem;
+    position: relative;
+    top: 24.5vh;
+    height: 47vh;
+    right: 2.5vw;
+ 
+}
+ /* this is the 6th of the small article of the political news */
+ .MinistersDiv{
+    width: 13.15rem;
+    position: relative;
+    bottom: 30.7vh;
+    left: 47vw;
+    height: 47vh;
+
+
+}
+/* this is the 7th of the small article of the political news */
+.PeoplesOpnionDiv{
+    width: 13.15rem;
+    position: relative;
+    top: 36vh;
+    height: 47vh;
+    right: 2.5vw;
+ 
+}
+ /* this is the 8th of the small article of the political news */
+ .StructuresDiv{
+    width: 13.15rem;
+    position: relative;
+    bottom: 19.5vh;
+    left: 47vw;
+     height: 47vh;
+
+}
+
+
+

@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  overflow-x: hidden;
+
 }
 .NavbarCircleLogo{
   width: 20%;
@@ -12,6 +12,12 @@ body{
   color: white;
   background-color:#1b262c;
   font-family: oswald;
+}
+.hrLine{
+  border: white 0.5px solid;
+  opacity: 0.5;
+  width: 90vw;
+  
 }
 .LogHeading{
   position: relative;
@@ -167,5 +173,10 @@ hr {
   font-weight: 500;
 }
 .CopyRightText{
-  color: white;
+  letter-spacing: 0.2rem;
+  font-family: 'Old Standard TT', serif;
+  color:white;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 2vh;
 }
