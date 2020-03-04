@@ -11,7 +11,7 @@ function openNav() {
     const subscribebtn = document.querySelector('.subscribeBttn');
     const wrapper = document.querySelector('.popupWrapper')
     const close = document.querySelector('.close');
-    const signmeup = document.querySelector('#signmeup');
+    // const signmeup = document.querySelector('#signmeup');
     const privacy = document.querySelector('#Privacy');
   
      subscribebtn.addEventListener('click', () =>{
@@ -32,9 +32,9 @@ function openNav() {
     
        });
     
-    signmeup.addEventListener('click', () =>{
-        window.open('https://www.dailymaverick.co.za/about/newsletter/')
-    });
+    // signmeup.addEventListener('click', () =>{
+    //     window.open('https://www.dailymaverick.co.za/about/newsletter/')
+    // });
     privacy.addEventListener('click', () =>{
         window.open('https://www.dailymaverick.co.za/privacy-policy/')
     
@@ -67,198 +67,174 @@ function openNav() {
       
 //API 
 
-// //First API
-// // Politics Weighing us down Article.The first big article on Political news
-// const articleContent = document.querySelector('.PoliticsWeighingUsDownDiv');
-// const newsImage = document.querySelector('#PoliticsWeighingUsDownImage');
+//First API endpoint
+// Politics Weighing us down Article.The first big article on Political news
+const PoliticsWeighingUsDownDiv = document.querySelector('.PoliticsWeighingUsDownDiv');
 
 
-//      //API endpoint
-//      const base = 'http://newsapi.org/v2/top-headlines?country=us&apiKey=17d954474c1a4e40962725a293644143';
+const  UpcomingElectionsDiv = document.querySelector('#UpcomingElectionsDiv');
 
-//     const getPoliticsWeighingUsDownInfo = async () => {
+const UpcomingElectionsImage = document.querySelector('#UpcomingElectionsImage');
+
+
+
+     // FIRST API endpoint
+     const base = 'http://newsapi.org/v2/top-headlines?country=ie&apiKey=17d954474c1a4e40962725a293644143';
+
+    const getNewsData = async () => {
   
-//     const response = await fetch (base);
+    const response = await fetch (base);
 
-//     const data = await response.json();
+    const data = await response.json();
  
-//      return data;
-//     };
+     return data;
+    };
 
-//     getPoliticsWeighingUsDownInfo()
-//     .then(data => {
-//         PoliticsWeighingUsDownData = data;
-//         console.log(PoliticsWeighingUsDownData);
+    getNewsData()
+    .then(data => {
+        newsData = data;
+        console.log(newsData);
 
-//    articleContent.innerHTML = `
+        PoliticsWeighingUsDownDiv.innerHTML = `
         
-//         <br>
-//                 <a href="PoliticsWeighingUsDown.html">
-//                     <div class="row first">
+                <a href="PoliticsWeighingUsDown.html">
+                    <div class="row first">
                                 
-//                         <div class="col PoliticsWeighingUsDownDiv">
-//                             <div class="card">
-//                             <img src="asssets/images/pics/politicsWeighingUsDown.jpeg" class="card-img-top PoliticsWeighingUsDownImage" alt="political issues: political matters weighing us down">
-//                                 <div class="card-body">
+                        <div class="col PoliticsWeighingUsDownDiv">
+                            <div class="card">
+                            <img src="${newsData.articles[8].urlToImage}" class="card-img-top" alt="political issues:" style="height: 40.7vh;">
+                                <div class="card-body">
 
-//                                     <h3 class="card-title bigHeading">
-//                                         <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${PoliticsWeighingUsDownData.articles.title}</a>
-//                                     </h3>
+                                    <h3 class="card-title bigHeading">
+                                        <a class="anchorTagHeading PoliticsWeighingUsDownHeading MainAPIheading" href="#">${newsData.articles[8].title}</a>
 
-//                                     <strong>
-//                                     <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">By Author: ${PoliticsWeighingUsDownData.articles.author}</h6>
-//                                     </strong>
+                                       
+                                    </h3>
 
-//                                     <p class="paraCardText">${PoliticsWeighingUsDownData.articles.description}</p>
+                                    <strong>
+                                    <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">  Author's Name  And Surname: ${newsData.articles[8].author}</h6>
+                                    </strong>
+
+                                    <p class="paraCardText MainAPItext">
+                                   
+                                    ${newsData.articles[8].content}
+
+                                    <br><br>
+                                    
+                                    <button  class="politicalButtonMain">
+                                    <h3 class="politicalButton">POLITICAL</h3>
+                                    </button>
+                                
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
                 
-//                                     <button  class="politicalButtonMain">
-//                                     <h3 class="politicalButton">POLITICAL</h3>
-//                                     </button>
-                                
-//                                 </div>
-//                             </div>
+   `;
 
-//                         </div>
-//                     </div>
-//                 </a>
-//                 <br><br><br><br><br><br>
-//    `;
+   UpcomingElectionsDiv.innerHTML = `
+        
+   <br>
+        <a href="UpcomingElections.html">
+            <div class="row first">
+                        
+                <div class="col PoliticsWeighingUsDownDiv" id="UpcomingElectionsImage">
+                    <div class="card">
+                    <img src="${newsData.articles[5].urlToImage}" class="card-img-top" style="height: 40.7vh;" id="UpcomingElectionsImage" >
+                        <div class="card-body">
 
-//    newsImage.setAttribute('src', PoliticsWeighingUsDownData.articles.urlToImage); 
+                            <h3 class="card-title bigHeading">
+                                <a class="anchorTagHeading PoliticsWeighingUsDownHeading MainAPIheading" href="#">${newsData.articles[5].title}</a>
+                               
+                            </h3>
 
-// }).catch(err => console.log (err));
+                            <strong>
+                            <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">  Author's Name  And Surname: ${newsData.articles[5].author}</h6>
+                            </strong>
 
+                            <p class="paraCardText MainAPItext">${newsData.articles[5].content}
+                            </p>
+                        
+                           
+                            
+                            <button  class="politicalButtonMain">
+                            <h3 class="politicalButton">POLITICAL</h3>
+                            </button>
+                        
+                        </div>
+                    </div>
 
-// getPoliticsWeighingUsDownInfo();
-
-
-
-//Second API 
-// upcoming elections Article.The second big article on Political news
+                </div>
+            </div>
+        </a>
       
-//       const  UpcomingElectionsDiv = document.querySelector('#UpcomingElectionsDiv');
-//       const UpcomingElectionsImage = document.querySelector('#UpcomingElectionsImage');
+   `;
 
 
+}).catch(err => console.log (err));
 
-//       const getUpcomingElectionsInfo = async () => {
-//       //API endpoint
-//      const base = 'http://newsapi.org/v2/top-headlines?country=za&category=business&apiKey=d56b510c5f7e4c78a8d27c5305f3248e';
 
-//      //? is to make a request/query.The knock-knock
+//First API endpoint for the main five (8)articles
+// Political Article.The first 8  article on Political news
+
+//1
+
+const APIdiv = document.querySelectorAll('.APIdiv');
+const links = ['PeoplesViews.html', 'UnionAsembly.html', 'delegations.html', 'mediaBrief.html', 'Elections.html', 'Ministers.html', 'PeoplesOpnion.html', 'Structures.html'];
+     //API endpoint
+     const baseMain = 'http://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=17d954474c1a4e40962725a293644143';
+
+    const MainInfo = async () => {
+  
+    const responseMain = await fetch (baseMain);
+
+    const data = await responseMain.json();
     
-//     const response = await fetch (base);
+ 
+     return data;
+    };
 
-//     const data = await response.json()
+    MainInfo()
+    .then(data => {
+        MainData = data;
+        console.log(MainData);
 
+         /* this is the 1st of the small article of the political news */
 
-//     .then(data => {
-//         UpcomingElectionsData = data;
-//         console.log(UpcomingElectionsData);
+         
+          for( i=0; i < 9 ; i++){
 
-//         UpcomingElectionsDiv.innerHTML = `
-        
-//    <br>
-//         <a href="UpcomingElections.html">
-//             <div class="row first">
-                        
-//                 <div class="col PoliticsWeighingUsDownDiv" id="UpcomingElectionsImage">
-//                     <div class="card">
-//                     <img src="asssets/images/pics/politicsVoting.jpeg" class="card-img-top" alt="political issues:voting,vote of confidence" id="UpcomingElectionsImage" >
-//                         <div class="card-body">
+            if(!MainData.articles[i].description){
+              MainData.articles[i].description = 'Lorem Ipsum dolor, sit amet consectetur adipisicing elit. Vero.Lorem ipsum dolor, sit..'
+            }
 
-//                             <h3 class="card-title bigHeading">
-//                                 <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${UpcomingElectionsData.articles[2].title}</a>
-//                             </h3>
+            
+            APIdiv[i].innerHTML = `
+            <a href="${links[i]}">
+                <div class="col newsColumn PeoplesViewDiv">
+                  <div class="card">
+                    <img src="${MainData.articles[i].urlToImage}" class="card-img-top" alt="Image is from ${MainData.articles[i].source}" id="PeoplesViewImage" style="height: 14.7vh;">
+                    <div class="card-body">
+                      <h3 class="card-title SubheadingTextMoreNews PeoplesViewHeading BigAPIheading">${MainData.articles[i].title}</h3> 
+                      <p class="card-text paraCardText SmallTextAPI">
+                      <strong class="card-text ByAuthorText SmallTextAPI">
+                       ${MainData.articles[i].author}:
+                     </strong>${MainData.articles[i].description}</p>
+                      <div class="gradient"></div>
+                      <button  class="politicalButtonMain">
+                        <h3 class="politicalButton">POLITICAL</h3>
+                      </button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </a>
+            `;
+            }
 
-//                             <strong>
-//                             <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">By Author: ${UpcomingElectionsData.articles[2].author}</h6>
-//                             </strong>
-
-//                             <p class="paraCardText">${UpcomingElectionsData.articles[2].description}</p>
-        
-//                             <button  class="politicalButtonMain">
-//                             <h3 class="politicalButton">POLITICAL</h3>
-//                             </button>
-                        
-//                         </div>
-//                     </div>
-
-//                 </div>
-//             </div>
-//         </a>
-//         <br><br><br><br><br><br>
-//    `;
-
-//    UpcomingElectionsImage.setAttribute('src', UpcomingElectionsData.articles[2].url); 
-
-// }).catch(err => console.log (err));
-
-// };
-// getUpcomingElectionsInfo();
+}).catch(err => console.log (err));
 
 
-// //Third API 
-// // Communinty fighting poverty Article.The first big article on Social news
-      
-// const  PovertyDiv = document.querySelector('.PovertyDiv');
-// const PovertyImage= document.querySelector('#PovertyImage');
-
-
-
-// const getPovertyInfo = async () => {
-// //     //API endpoint
-// const base = 'http://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=d56b510c5f7e4c78a8d27c5305f3248e';
-
-// //     //? is to make a request/query.The knock-knock
-
-// const response = await fetch (base);
-
-// const data = await response.json()
-
-
-// .then(data => {
-//   PovertyData = data;
-//   console.log(PovertyData);
-
-//   PovertyDiv.innerHTML = `
-  
-// <br>
-//   <a href="UpcomingElections.html">
-//       <div class="row first">
-                  
-//           <div class="col PoliticsWeighingUsDownDiv" id="UpcomingElectionsImage">
-//               <div class="card">
-//               <img src="https://asset.kompas.com/crops/tgg3al4xfOPilFCWu-VEB1eRU2k=/278x0:1390x741/780x390/filters:watermark(data/photo/2019/08/13/5d528ba5c908a.png,0,-0,1)/data/photo/2020/02/18/5e4bc63a0d49f.jpg" class="card-img" alt="social issue:Fighting poverty" loading ="slow" id="PovertyImage" style="height: 40.7vh;">
-//                   <div class="card-body">
-
-//                       <h3 class="card-title bigHeading">
-//                           <a class="anchorTagHeading PoliticsWeighingUsDownHeading" href="#">${PovertyData.articles[2].title}</a>
-//                       </h3>
-
-//                       <strong>
-//                       <h6 class="card-text ByAuthorText PoliticsWeighingUsDownAuthour">By Author: ${PovertyData.articles[2].author}</h6>
-//                       </strong>
-
-//                       <p class="paraCardText">${PovertyData.articles[2].description}</p>
-  
-//                       <button  class="politicalButtonMain">
-//                       <h3 class="politicalButton">POLITICAL</h3>
-//                       </button>
-                  
-//                   </div>
-//               </div>
-
-//           </div>
-//       </div>
-//   </a>
-//   <br><br><br><br><br><br>
-// `;
-
-// PovertyImage.setAttribute('src', PovertyData.articles[2].url); 
-
-// }).catch(err => console.log (err));
-
-// };
-// getPovertyInfo();
 

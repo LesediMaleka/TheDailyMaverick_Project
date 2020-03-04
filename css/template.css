@@ -38,6 +38,17 @@ body{
     border-radius: 3px;
     z-index: 1;
 }
+.card-body {
+    padding-right: 20px;
+    /* padding-top: 5px; */
+    padding: 0 !important;
+    margin-bottom: 20px;
+    text-align: justify;
+    word-break: break-all;
+    position: relative;
+    right: 3vw;
+    margin-left: 22px;
+    }
 
 /* This is the linebreak below the navBar */
 .mainlinebreak{
@@ -162,7 +173,7 @@ h3{
       display: block;
 }
 .politicalButtonMain{
-    position: absolute;
+    position: relative;
     top: 94.4%;
     left: 6%;
     border-radius: 50px;
@@ -189,6 +200,7 @@ h3{
 .paraCardText{
     font-family: 'Old Standard TT', serif;
     color: #fff;
+    line-height: 18px;
 }
 
 .socialButton{
@@ -234,7 +246,7 @@ h3{
     height: 35vh;
     width: 100%;
     font-family: 'Oswald', sans-serif;
-    margin: 1px;
+    margin: 7px;
 }
 .newsColumn{
     display: inline-block;
@@ -247,6 +259,7 @@ h3{
     height: 55vh;
     position: relative;
     bottom:2.2vh;
+
 }
 /* this is the div for the small pic image and text on the on the left hand side  */
 .yellow{
@@ -464,8 +477,9 @@ a{
 .anchorTagHeading{
     color:white;
     text-transform: uppercase;
+    margin-left: 6px;
 }
-
+/* //This is the heading tag */
 .MainHeadingButton{
     position: relative;
     left: 25vw;
