@@ -20,6 +20,11 @@ body{
   font-family: oswald;
   font-size: 34px;
 }
+.hrLine{
+  border: white 0.5px solid;
+  opacity: 0.5;
+  width: 90vw;
+}
 .LogHeadDiv{
   padding: 10px;
 }

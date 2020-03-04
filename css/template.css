@@ -11,6 +11,12 @@ body{
       background-color: #171717;
       height: 55px;
   }
+  .hrLine{
+    border: white 0.5px solid;
+    opacity: 0.5;
+    width: 90vw;
+    
+  }
 #menuToggle {
     display: block;
     position: relative;
