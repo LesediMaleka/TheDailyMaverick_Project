@@ -1,3 +1,4 @@
+/* This is the class of the media icons beneath the cartoons*/
 .comment{
     display: inline-block;
     width: 50px;
@@ -32,9 +33,12 @@
     position: relative;
     top: 44vh;
 }
+/* The heading of the page thats on the side and it overlays the first cartoon. It is
+ animated to slide in from the right to give it a more dynamic feel. */
+
 .MainHeadingButtontop{
     position: relative;
-    left: 25vw;
+    left: 15vw;
     bottom: 56vh;
     border-radius: 50px;
     width: 980px;
@@ -55,12 +59,46 @@
     color: white;
     font-family: 'Old Standard TT', serif;
     text-transform: uppercase;
-    padding-right: 670px;
+    padding-right: 647px;
     
 }  
+/* This is the animation of the main Heading button on top of the page */
   @keyframes HeadingMotion {
     from {transform: translateX(170px);
     }
     to {transform: translateX(-30px);
     }
-  };
+  }
+
+/* This is the styling of the images in the NASA News page */
+
+/* This is the styling of the first div on  nasa page */
+.Astronomy{
+    position: relative;
+    bottom: 0.897vh;
+}
+#image{
+    position: relative;
+    width: 100vw;
+    height: 42vh;
+}
+#marsImage{
+    position: relative;
+    width: 100vw;
+    height: 42vh;
+
+}
+#plutoImage{
+    position: relative;
+    width: 100vw;
+    height: 42vh;
+
+}
+#MoonImage{
+    position: relative;
+    width: 100vw;
+    height: 42vh;
+}
+
+
+
