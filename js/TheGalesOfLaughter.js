@@ -140,6 +140,158 @@ const MarsRover = document.querySelector('.MarsRover');
 
 const PlutoRover = document.querySelector('.PlutoRover');
 
+const marsImage = document.querySelector('#marsImage');
+
+
+const plutoImage = document.querySelector('#plutoImage');
+
+
+// API
+
+const baseMars = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=fhaz&api_key=VXGb3OXUW8a5rwB1uN2HwJFBesWqe4rKR2z3qHRw';
+
+
+const getMarsPic = async () =>{
+
+    const responseMars = await fetch(baseMars);
+
+    const data = await responseMars.json();
+    return data;
+
+  };
+  getMarsPic()
+  .then(data => {
+    MarsData = data;
+    console.log(MarsData);
+  
+  
+    MarsRover.innerHTML = ` <div class="card mb-3 first MarsRover" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img id="marsImage" src="${MarsData.photos[1].img_src}" class="card-img" alt="Managing Director">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+           
+        <!-- This is the heading of the photo -->
+  
+          <h3 class="card-title bigHeading">
+            <a class="anchorTagHeading" href="#">${MarsData.photos[0].camera.full_name}</a>
+          </h3>
+  
+         <h5 class="card-title smallHeading">
+                <a class="ByAuthorText" href="#">${MarsData.photos[0].camera.name}</a>
+          </h5>
+  
+        <!-- This is the content on the article -->
+  
+          <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda sit ipsam ducimus ab in, velit 
+          </p>
+  
+        <!-- This is the muted text on the article -->
+  
+          <p class="card-text paraCardText"><small class="text-muted">Last updated ${MarsData.photos[0].earth_date}</small></p>
+  
+        </div>
+      </div>
+    </div>
+  </div>`;
+ })
+getMarsPic()
+.then(data => {
+  MarsData = data;
+  console.log(MarsData);
+
+// This is applied on the third article------------------------------------------------------>
+
+  PlutoRover.innerHTML = ` <div class="card mb-3 first PlutoRover " style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img id="plutoImage" src="${MarsData.photos[0].img_src}" class="card-img" alt="Managing Director">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+         
+      <!-- This is the heading of the photo -->
+
+        <h3 class="card-title bigHeading">
+          <a class="anchorTagHeading" href="#">${MarsData.photos[0].rover.cameras[1].full_name}</a>
+        </h3>
+
+       <h5 class="card-title smallHeading">
+              <a class="ByAuthorText" href="#">${MarsData.photos[0].rover.cameras[1].name}</a>
+        </h5>
+
+      <!-- This is the content on the article -->
+
+        <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta 
+        </p>
+
+      <!-- This is the muted text on the article -->
+
+        <p class="card-text paraCardText"><small class="text-muted">Last updated on ${MarsData.photos[0].earth_date}</small></p>
+
+      </div>
+    </div>
+  </div>
+</div>`;
+
+}).catch(err => console.log(err));  
+      
+  
+ //  NASA page API ENDPOINT :EPIC: Earth Polychromatic Imaging Camera----------------------------------->
+// Variables
+
+ const Spaceships = document.querySelector('.Spaceships');
+
+ const Moon = document.querySelector('.Moon');
+
+
+ const spaceImages = document.querySelector('#spaceImages');
+
+ const MoonImage = document.querySelector('.MoonImage');
+ 
+ // API
+
+ const baseSpace = ' https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=O04avwdZKQsOpIvoZFT2gJsaVEIJHN1Pf8sjvoHv ';
+ 
+
+ const getSpacePic = async () =>{
+ 
+     const responseSpace = await fetch(baseSpace);
+ 
+     const data = await responseSpace.json();
+     return data;
+ };
+ getSpacePic()
+ .then(data => {
+   SpaceData = data;
+   console.log(SpaceData);
+ 
+
+   Spaceships.innerHTML = `<div class="card mb-3 first Astronomy" style="max-width: 540px;">
+   <div class="row no-gutters">
+     <div class="col-md-4">
+       <img id="image" src="${SpaceData.photos[0].img_src}"  class="card-img" alt="Managing Editor">
+     </div>
+     <div class="col-md-8 ">
+       <div class="card-body">
+          
+      <!-- This is the heading of the opinion piece -->
+
+         <h3 class="card-title bigHeading">
+           <a class="anchorTagHeading" href="#">${SpaceData.photos[0].camera.full_name}
+  
+           </a>
+         </h3>
+      
+         <h5 class=" card-title smallHeading">
+               <a class="writtenArticle ByAuthorText" href="#">${SpaceData.photos[0].camera.name}</a>
+         </h5>
+
+      <!-- This is the content of the opinion piece -->
+
+         <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda.</p>
 
 const marsImage = document.querySelector('#marsImage');
 
@@ -335,6 +487,51 @@ getMarsPic()
 
       <!-- This is the content of the opinion piece -->
 
+
+         <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda.</p>
+
+       <!-- This is the muted text on the opinion piece -->
+
+
+         <p class="card-text paraCardText"><small class="text-muted">Last updated ${SpaceData.photos[0].rover.launch_date}</small>
+         </p>
+
+       </div>
+     </div>
+   </div>
+ </div>`;
+
+ })
+
+// The API is working on the last article-----------------------------> 
+ getSpacePic()
+ .then(data => {
+   SpaceData = data;
+   console.log(SpaceData);
+ 
+
+   Moon.innerHTML = `<div class="card mb-3 first Moon" style="max-width: 540px;">
+   <div class="row no-gutters">
+     <div class="col-md-4">
+       <img id="Moonimage" src="${SpaceData.photos[24].img_src}"  class="card-img" alt="Managing Editor">
+     </div>
+     <div class="col-md-8 ">
+       <div class="card-body">
+          
+      <!-- This is the heading of the opinion piece -->
+
+         <h3 class="card-title bigHeading">
+           <a class="anchorTagHeading" href="#">${SpaceData.photos[24].rover.name}
+  
+           </a>
+         </h3>
+      
+         <h5 class=" card-title smallHeading">
+               <a class="writtenArticle ByAuthorText" href="#">${SpaceData.photos[24].rover.cameras[1].name}</a>
+         </h5>
+
+      <!-- This is the content of the opinion piece -->
+
          <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda.</p>
 
 
@@ -350,6 +547,23 @@ getMarsPic()
 
  }).catch(err => console.log(err));
               
+
+
+
+
+       <!-- This is the muted text on the opinion piece -->
+
+         <p class="card-text paraCardText"><small class="text-muted">Last updated ${SpaceData.photos[24].rover.landing_date}</small>
+         </p>
+
+       </div>
+     </div>
+   </div>
+ </div>`;
+
+ }).catch(err => console.log(err));
+              
+
 
 
 
