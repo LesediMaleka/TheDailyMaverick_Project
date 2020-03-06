@@ -15,13 +15,18 @@ body{
 .LogHeading{
   position: relative;
   left: 25vw;
-  bottom: 5vh;
+  bottom: 4vh;
   color: white;
   font-family: oswald;
   font-size: 34px;
 }
 .LogHeadDiv{
   padding: 10px;
+}
+.hrLine{
+  border: white 0.5px solid;
+  opacity: 0.5;
+  width: 90vw;
 }
 /* form section */
 .LogInHeading{
@@ -39,6 +44,7 @@ body{
   position: relative;
   text-align: center;
   color:#3282b8;
+  top: 2vh;
 }
 .ForgotPassword{
   position: relative;
@@ -153,3 +159,8 @@ button:hover {
     }
   } */
   
+/* input {
+  display: block;
+  margin: 10px auto;
+  padding: 4px;
+} */
