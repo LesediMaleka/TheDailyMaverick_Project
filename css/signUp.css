@@ -133,6 +133,11 @@ button:hover {
   color:#3282b8;
   top: 1.2vh;
 }
+.ForgotPassword{
+  position: relative;
+  text-align: right;
+  color:#3282b8;
+}
 
 /* The Modal (background) */
 .modal {
