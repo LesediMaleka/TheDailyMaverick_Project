@@ -14,6 +14,7 @@ LogInPage.style.display="none";
 const ResetPasswordPage = document.querySelector('.ResetPasswordPage');
 
 ResetPasswordPage.style.display="none";
+
 // SignUp
 const LoginHereText = document.querySelector('.LoginHereText');
 
@@ -165,73 +166,75 @@ function myFunction(){
 }
 
 // Task 3 we did a bit but we failed to make buttons change since we havent used buttons
+
+
 // Task 4
 
-const articles = [
-    {Headline: 'Petrol Prices', image:'construction-site-build-construction-work-159306.jpeg', alt: 'petrol' },
-    {Headline: 'Corona virus', image:'car-refill-trasportation-gas-9796.jpg', alt:'corona'},
-    {Headline: 'Eskom', image:'cable-current-danger-distribution-236089.jpg', alt:'eskom' },
+// const articles = [
+//     {Headline: 'Petrol Prices', image:'construction-site-build-construction-work-159306.jpeg', alt: 'petrol' },
+//     {Headline: 'Corona virus', image:'car-refill-trasportation-gas-9796.jpg', alt:'corona'},
+//     {Headline: 'Eskom', image:'cable-current-danger-distribution-236089.jpg', alt:'eskom' },
   
-];
+// ];
 
 
-const Images = document.querySelector('.images');
-let savedSearch = localStorage.getItem('search');
+// const Images = document.querySelector('.images');
+// let savedSearch = localStorage.getItem('search');
 
-articles.forEach (article => {
-    articles.innerHTML +=
+// articles.forEach (article => {
+//     articles.innerHTML +=
 
-    `
-    <a href="petrol.html">
-  <div class="row first">
+//     `
+//     <a href="petrol.html">
+//   <div class="row first">
           
-    <div class="col">
-      <div class="card">
-        <img src="${article.images}" class="card-img-top" alt="political issues:voting,vote of confidence">
-      <div class="card-body">
-        <h3 class="card-title bigHeading">
-            <a class="anchorTagHeading" href="#">PETROL PRICES GOING UP</a>
-        </h3>
+//     <div class="col">
+//       <div class="card">
+//         <img src="${article.images}" class="card-img-top" alt="political issues:voting,vote of confidence">
+//       <div class="card-body">
+//         <h3 class="card-title bigHeading">
+//             <a class="anchorTagHeading" href="#">PETROL PRICES GOING UP</a>
+//         </h3>
 
-        <p class="card-text paraCardText">
-          <strong class="card-text ByAuthorText">
-            Author's Name And Surname:
-          </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero.</p>
-        <button  class="politicalButtonMain">
-          <h3 class="politicalButton">POLITICAL</h3>
-        </button>
+//         <p class="card-text paraCardText">
+//           <strong class="card-text ByAuthorText">
+//             Author's Name And Surname:
+//           </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero.</p>
+//         <button  class="politicalButtonMain">
+//           <h3 class="politicalButton">POLITICAL</h3>
+//         </button>
     
 
-      </div>
-      </div>
+//       </div>
+//       </div>
 
-    </div>
-</div>
-</a>
-    `
-});
+//     </div>
+// </div>
+// </a>
+//     `
+// });
 
-const searchForm = document.querySelector('form');
-    //filter function the optimized code
-    const filterImage = (search) =>{
-        let divs =  Array.from(Images.children);
+// const searchForm = document.querySelector('form');
+//     //filter function the optimized code
+//     const filterImage = (search) =>{
+//         let divs =  Array.from(Images.children);
    
-        divs.filter(card => !card.innerText.toLowerCase().includes(search)).forEach(div => {div.classList.add('filtered');});
+//         divs.filter(card => !card.innerText.toLowerCase().includes(search)).forEach(div => {div.classList.add('filtered');});
    
-        divs.filter(card => card.innerText.toLowerCase().includes(search)).forEach(div => {div.classList.remove('filtered');});
+//         divs.filter(card => card.innerText.toLowerCase().includes(search)).forEach(div => {div.classList.remove('filtered');});
    
-       };
+//        };
    
-       filterImage(savedSearch);
-       if(savedSearch){searchForm.search.value = savedSearch};
+//        filterImage(savedSearch);
+//        if(savedSearch){searchForm.search.value = savedSearch};
        
    
-       searchForm.addEventListener('keyup', e =>{
-           e.preventDefault();
+//        searchForm.addEventListener('keyup', e =>{
+//            e.preventDefault();
    
-           const search =  searchForm.search.value.trim().toLowerCase(); 
-       //  console.log(search); 
-       // instead of console.log,we type 
-       filterImage(search);
-       localStorage.setItem('search', search);
-   });
+//            const search =  searchForm.search.value.trim().toLowerCase(); 
+//        //  console.log(search); 
+//        // instead of console.log,we type 
+//        filterImage(search);
+//        localStorage.setItem('search', search);
+//    });
