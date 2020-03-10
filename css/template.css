@@ -11,6 +11,12 @@ body{
       background-color: #171717;
       height: 55px;
   }
+  .hrLine{
+    border: white 0.5px solid;
+    opacity: 0.5;
+    width: 90vw;
+    
+  }
 #menuToggle {
     display: block;
     position: relative;
@@ -272,8 +278,6 @@ h3{
 }
 /* this is the subcribe section */
 
-    /* This is the subscribe button */
-
 .subscribe{
     position: relative;
     top: 74.4%;
@@ -294,7 +298,6 @@ h3{
     color: white;
     font-family: oswald;
 }
-
 /* This is the newspaper svg image */
 #newspaper{
     position: absolute;
@@ -303,7 +306,6 @@ h3{
     width: 200px;
     height: 100px;
 }
- 
 .popupWrapper{
    background:  rgba(0,0,0,0.5);
    position: fixed;
@@ -325,24 +327,21 @@ h3{
     padding: 5%;
     bottom: 25px;
 }
-
 h2{
     position: absolute;
     top: 250px;
     left: 20px;
 }
-
 input{
     position: relative;
-    top: 350px;
+    top: 300px;
     width: 300px;
     height: 30px;
     background: white;
 }
-
 #signmeup{
     position: absolute;;
-    top:410px;
+    top:450px;
     left: 33px;
     width:300px;
     height: 30px;
@@ -352,7 +351,6 @@ input{
     padding: 3px 20px ;
     
 }
-
 .close{
     position: absolute;
     color: white;

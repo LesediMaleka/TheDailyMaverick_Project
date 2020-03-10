@@ -1,6 +1,31 @@
 *{
   box-sizing: border-box;
+}
 
+.search{
+  text-align: center;
+}
+
+.filtered{
+  display: none;
+}
+
+/* forms */
+div.search form input[type=text]{
+  border-radius: 50px 0 0 50px;
+  width: 30%;
+  height: 3.7vh;
+  border: none;
+  /* padding-left: 10px; */
+  color: black;
+  
+}
+div.search form input[type=submit]{
+  border-radius: 0 50px 50px 0;
+  width: 30%;
+  height: 5vh;
+  border: none;
+  background: #3282b8;
 }
 .search{
   text-align: center;
@@ -118,6 +143,25 @@ button:hover {
 /* Add padding to container elements */
 .container {
   padding: 16px;
+}
+.icon{
+  fill:#3282b8;
+  width: 6%;
+  height: 5%;
+  position: relative;
+  left: 28vw;
+  top: 6vh;
+}
+.LogOut{
+  position: relative;
+  text-align: center;
+  color:#3282b8;
+  top: 1.2vh;
+}
+.ForgotPassword{
+  position: relative;
+  text-align: right;
+  color:#3282b8;
 }
 
 /* The Modal (background) */
