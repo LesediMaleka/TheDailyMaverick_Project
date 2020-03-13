@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- our css link -->
+  <link rel="stylesheet" href="css/subscribersPamela.css">
+  <!-- <link rel="stylesheet" href="css/LogIn.css"> -->
+    <title>Subscribe for database</title>
+  </head>
+  <body>
+
+<div class="SignUpPage">
+
+   
+        <!-- This is the sign up form  start(start)-->
+        <a href="https://www.dailymaverick.co.za/">
+          <div class="col-10 LogHeadDiv">
+              <img class="NavbarCircleLogo" src="asssets/images/pics/NavbarCircleLogo.png" alt="logo">
+      
+            </div>
+      </a>
+    
+      <h1 class="LogHeading">The Daily Maverick</h1>
+
+    <hr>
+
+  
+    </div>
+
+
+      
+    <form class="SubscribersForm">
+      <div class="container">
+
+        <h3 class="SignUpHeading">SUBSCRIBE NOW</h3>
+
+    <hr>
+       
+        <input type="text" class="email form-control" placeholder="Enter Your Email Id" name="email" id="userEmail" required>
+
+  
+    
+        <label>
+          <input type="checkbox"  name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+    
+        <p>By creating an account you agree to our <a href="https://www.dailymaverick.co.za/privacy-policy/" style="color:#3282b8">Terms & Privacy</a>.</p>
+    
+        <div class="clearfix">
+          <button type="submit" class="signupbtn">SUBSCRIBE</button>
+         
+        </div>
+      </div>
+      
+    </form>
+
+  <hr>
+  
+    
+      
+        <div class="footer">
+            <a class="FooterLinks" href="index.html">Latest News</a> |
+            <a class="FooterLinks" href="TheDailyScope.html">The Daily Scope</a> |
+            <a class="FooterLinks" href="TheGalesOfLaughter.html">The Gales Of Laughter</a>
+    
+    
+            <p class="CopyRightText"> Copyright TPLcoders.com © 2020</p>
+        </div>
+    
+
+
+
+    <!-- Database ------------------------------------------------------>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script> 
+
+ <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries  -->
+     <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script> 
+
+   <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyC_eHcOpTtKf_O6OYqoIuedkkdOF_0xrGI",
+      authDomain: "thedmproject-f0837.firebaseapp.com",
+      databaseURL: "https://thedmproject-f0837.firebaseio.com",
+      projectId: "thedmproject-f0837",
+      storageBucket: "thedmproject-f0837.appspot.com",
+      messagingSenderId: "77504308779",
+      appId: "1:77504308779:web:9f3a2a716f82cc9c64ac6e",
+      measurementId: "G-BBG3TG43PL"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    firebase.analytics();
+  </script> 
+    
+
+ <!-- This is the subscribe form(end) -->
+
+   
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+     <!-- Optional JavaScript -->
+   
+     <script src="js/subscribersPamela.js"></script>
+
+  </body>
+  </html>
