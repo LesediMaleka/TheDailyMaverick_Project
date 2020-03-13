@@ -1,7 +1,4 @@
-.FormContainer{
-    position: relative;
-    top: 10vh;
-}
+
 .UnsubBtn{
     position: relative;
     top: 94.4%;
@@ -14,7 +11,7 @@
 }
 .AdddArticleHeading{
     position: relative;
-    left: 8vw;
+    left: 16vw;
     color:#eef2f5;
     font-size: 28px;
     font-weight: 700;
@@ -24,12 +21,23 @@
     position: relative;
     bottom: 80vw;
 }
-.UserInputField{
-    width: 65%;
-    height: 25vh;
-}
+
 .UserAddBtn{
-    width: 45%;
-    height: 25vh;
-    
+   color: white;
+   background-color: #d63d3f;
+   border: 0.5px solid #d63d3f;
+   border-radius: 50px;
+   position: relative;
+   
+}
+/* styling of the delete button */
+.stylingTextInButton{
+    position: relative;
+    left: 0.5%;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+    font-family: oswald;
+    text-transform: uppercase;
 }

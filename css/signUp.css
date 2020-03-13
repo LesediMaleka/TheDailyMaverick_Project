@@ -230,6 +230,7 @@ hr {
 .footer{
   text-align: center;
   position: relative;
+  bottom: 0;
 }
 .FooterLinks{
   color: #3282b8;
