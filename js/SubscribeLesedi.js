@@ -7,7 +7,7 @@ const SubsForm = document.querySelector('.SubsForm');
     e.preventDefault();
 
     const now = new Date();
-    const subcribers = {
+    const subscriber = {
  
   email: SubsForm.userEmail.value,
   
@@ -16,9 +16,9 @@ const SubsForm = document.querySelector('.SubsForm');
 
 
 
-db.collection('subcribers').add(subcribers).then(() => {
+db.collection('subscribers').add(subscriber).then(() => {
 
-    console.log('subcribers added');
+    console.log('subscriber added');
   }).catch(err => {
     console.log(err);
   
