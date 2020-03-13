@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+    <!-- my style.css -->
+ 
+    <link rel="stylesheet" href="css/data.css">
+    <!-- <link rel="stylesheet" href="css/template.css"> -->
+</head>
+<body>
+
+
+
+    <div class="col-10">
+        <img class="Dms" src="asssets/images/pics/NavbarCircleLogo.png" alt="logo" width="30%">
+      </div>
+<hr>
+<form>
+           
+    <div class="input-group add">
+        <input class="form-control" type="text" id="userPetrol" required>
+        <div class="input-group-append">
+            <input type="submit" value="add" class="btn btn-outline-secondary">
+        </div>
+    </div>
+</form>
+    <div class="container my-5"></div>
+    
+  
+        <div class="PetrolArticles"></div> 
+
+       
+   
+<!-- 
+       
+       The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+
+ <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries --> 
+ <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script> -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCJHgc1Fto8j6GgvHJ_8gy1qDlB0Ep3_hw",
+    authDomain: "latestnews-1a34f.firebaseapp.com",
+    databaseURL: "https://latestnews-1a34f.firebaseio.com",
+    projectId: "latestnews-1a34f",
+    storageBucket: "latestnews-1a34f.appspot.com",
+    messagingSenderId: "919260782621",
+    appId: "1:919260782621:web:ee03c659671b23277e66f4",
+    measurementId: "G-QJERP9WY0G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  firebase.analytics();
+</script>
+    <!-- my script  -->
+    <script src="js/Database.js"></script>
+    
+</body>
+</html>

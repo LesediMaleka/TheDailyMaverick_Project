@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- our css link -->
+<link rel="stylesheet" href="css/subscribe.css">
+  <!-- <link rel="stylesheet" href="css/LogIn.css"> -->
+    <title>Subscribe for database</title>
+  </head>
+  <body>
+
+<div class="SignUpPage">
+
+   
+        <!-- This is the sign up form  start(start)-->
+        <a href="https://www.dailymaverick.co.za/">
+          <div class="col-10 LogHeadDiv">
+              <img class="NavbarCircleLogo" src="asssets/images/pics/NavbarCircleLogo.png" alt="logo">
+      
+            </div>
+      </a>
+    
+      <h1 class="LogHeading">The Daily Maverick</h1>
+
+    <hr>
+
+  
+    </div>
+
+
+      
+    <form class="SubForm">
+      <div class="container">
+
+        <h3 class="SignUpHeading">SUBSCRIBE NOW</h3>
+
+    <hr>
+       
+        <input type="text" class="email form-control" placeholder="Enter Your Email Id" name="email" id="userEmail" required>
+
+  
+    
+        <label>
+          <input type="checkbox"  name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+    
+        <p>By creating an account you agree to our <a href="https://www.dailymaverick.co.za/privacy-policy/" style="color:#3282b8">Terms & Privacy</a>.</p>
+    
+        <div class="clearfix">
+          <button type="submit" class="signupbtn">SUBSCRIBE</button>
+         
+        </div>
+      </div>
+      
+    </form>
+
+  <hr>
+  
+    
+      
+        <div class="footer">
+            <a class="FooterLinks" href="index.html">Latest News</a> |
+            <a class="FooterLinks" href="TheDailyScope.html">The Daily Scope</a> |
+            <a class="FooterLinks" href="TheGalesOfLaughter.html">The Gales Of Laughter</a>
+    
+    
+            <p class="CopyRightText"> Copyright TPLcoders.com © 2020</p>
+        </div>
+    
+
+
+
+<!-- 
+       
+       The core Firebase JS SDK is always required and must be listed first -->
+       <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+       
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries --> 
+        <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script> 
+       
+       <script>
+         // Your web app's Firebase configuration
+         var firebaseConfig = {
+           apiKey: "AIzaSyCJHgc1Fto8j6GgvHJ_8gy1qDlB0Ep3_hw",
+           authDomain: "latestnews-1a34f.firebaseapp.com",
+           databaseURL: "https://latestnews-1a34f.firebaseio.com",
+           projectId: "latestnews-1a34f",
+           storageBucket: "latestnews-1a34f.appspot.com",
+           messagingSenderId: "919260782621",
+           appId: "1:919260782621:web:ee03c659671b23277e66f4",
+           measurementId: "G-QJERP9WY0G"
+         };
+         // Initialize Firebase
+         firebase.initializeApp(firebaseConfig);
+         const db = firebase.firestore();
+         firebase.analytics();
+       </script>
+           <!-- my script  -->
+           
+           
+
+       
+   
+     <script src="js/subscribeTshepo.js"></script>
+
+  </body>
+</html>

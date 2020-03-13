@@ -1,0 +1,114 @@
+html{
+    overflow-x: hidden;
+  }
+body{
+      background-color: #1b262c;
+      overflow: hidden;
+      cursor: pointer;
+  }
+
+  .card-body {
+    padding-right: 20px;
+    /* padding-top: 5px; */
+    padding: 0 !important;
+    margin-bottom: 20px;
+    text-align: justify;
+    word-break: break-all;
+    position: relative;
+    right: 3vw;
+    margin-left: 22px;
+    border: 0;
+    }
+   .card{
+       background-color: #1b262c;
+       color: white;
+       border: 0;
+   }
+   .stylingTextInButton {
+    position: relative;
+    top: 94.4%;
+    left: 6%;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color:#3282b8;
+    border: solid 1px #3282b8;
+   }
+
+
+.politicalButton{
+    position: relative;
+    left: 0.5%;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+    font-family: oswald;
+    text-transform: uppercase;
+    
+}
+.delete{
+  position: relative;
+  bottom:8vh;
+  left: 15%;
+}
+.Dms{
+  width: 30%;
+  position: relative;
+  left: 130px;
+  bottom: -10px;
+}
+
+.add{
+background-color:#d63d3f;
+  color: white;
+}
+.bigHeading{
+    color: white;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.newsColumn{
+  display: inline-block;
+}
+
+.first{
+  color:black;
+  height: 55vh;
+  position: relative;
+  bottom:2.2vh;
+
+}
+
+.card-body {
+  padding-right: 20px;
+  /* padding-top: 5px; */
+  padding: 0 !important;
+  margin-bottom: 20px;
+  text-align: justify;
+  word-break: break-all;
+  position: relative;
+  right: 3vw;
+  margin-left: 22px;
+  }
+
+  .anchorTagHeading{
+    color:white;
+    text-transform: uppercase;
+    margin-left: 6px;
+    position: relative;
+    top:2vh;
+}
+.paraCardText{
+  font-family: 'Old Standard TT', serif;
+  color: #fff;
+  line-height: 18px;
+  text-align: center;
+}  
+
+.ByAuthorText{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
