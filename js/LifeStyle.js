@@ -107,8 +107,6 @@ db.collection('food').get().then((snapshot) =>{
 //the third set of articles pulling from the database VarietyArticles
 const VarietyArticles = document.querySelector('.VarietyArticles');
 const form = document.querySelector('form');
-// const UnsubBtn = document.querySelector('.UnsubBtn');
-// const deleteBTTn = document.getElementsByClassName
 
 const addVariety = (variety,id) => {
 
@@ -141,10 +139,7 @@ const addVariety = (variety,id) => {
  </div>
 
 
- <button  class="politicalButtonMain btn btn-sm my-2">
- <h3 class="politicalButton">DELETE</h3>
-</button>
-
+ <button class="stylingTextInButton politicalButtonMain btn btn-sm my-2">Delete</button>
 </div>
 
   `;
@@ -192,6 +187,8 @@ form.addEventListener('submit', e => {
     const variety = {
  
   title: form.userVariety.value,
+  ContactNumbers: form.userNumber.value,
+  Image: form.userImage.value,
   created_at: firebase.firestore.Timestamp.fromDate(now)
 };
 
