@@ -1,0 +1,35 @@
+.FormContainer{
+    position: relative;
+    top: 10vh;
+}
+.UnsubBtn{
+    position: relative;
+    top: 94.4%;
+    left: 6%;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color:#3282b8;
+    border: solid 1px #3282b8;
+}
+.AdddArticleHeading{
+    position: relative;
+    left: 8vw;
+    color:#eef2f5;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: oswald;
+}
+.InputField{
+    position: relative;
+    bottom: 80vw;
+}
+.UserInputField{
+    width: 65%;
+    height: 25vh;
+}
+.UserAddBtn{
+    width: 45%;
+    height: 25vh;
+    
+}
