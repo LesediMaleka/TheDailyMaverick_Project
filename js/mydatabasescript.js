@@ -190,3 +190,4 @@ db.collection('Opinionista').get().then((snapshot) => {
        console.log(err);
   });
   
+// testing
