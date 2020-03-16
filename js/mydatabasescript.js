@@ -24,11 +24,7 @@ const addCartoon = (cartoons) => {
       
         <!-- This the share icon: its an svg -->
           <div  class="share comment">
-<<<<<<< HEAD
             <?xml version="1.0" encodi/ng="UTF-8"?>
-=======
-            <?xml version="1.0" encoding="UTF-8"?>
->>>>>>> 1758f476977d7d6698ace340d5c360d52282711a
             <svg enable-background="new 0 0 426.667 426.667" version="1.1" viewBox="0 0 426.67 426.67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
       
         
@@ -194,17 +190,3 @@ db.collection('Opinionista').get().then((snapshot) => {
        console.log(err);
   });
   
-<<<<<<< HEAD
-
-
-  
-
-  
-
-  
-
-  
-
-  
-=======
->>>>>>> 1758f476977d7d6698ace340d5c360d52282711a
