@@ -101,7 +101,7 @@
       <div class="col-md-8 ">
         <div class="card-body">
            
-       <!-- This is the heading of the opinion piece -->
+       // This is the heading of the opinion piece 
 
           <h3 class="card-title bigHeading">
             <a class="anchorTagHeading" href="#">
@@ -113,12 +113,12 @@
                 <a class="writtenArticle ByAuthorText" href="#">${NasaData.copyright}</a>
           </h5>
 
-       <!-- This is the content of the opinion piece -->
+       //This is the content of the opinion piece 
 
           <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda.</p>
 
 
-        <!-- This is the muted text on the opinion piece -->
+         // This is the muted text on the opinion piece 
 
           <p class="card-text paraCardText"><small class="text-muted">Last updated  ${NasaData.date} </small>
           </p>
@@ -325,7 +325,7 @@ const getMarsPic = async () =>{
       <div class="col-md-8">
         <div class="card-body">
            
-        <!-- This is the heading of the photo -->
+        //This is the heading of the photo 
   
           <h3 class="card-title bigHeading">
             <a class="anchorTagHeading" href="#">${MarsData.photos[0].camera.full_name}</a>
@@ -335,12 +335,12 @@ const getMarsPic = async () =>{
                 <a class="ByAuthorText" href="#">${MarsData.photos[0].camera.name}</a>
           </h5>
   
-        <!-- This is the content on the article -->
+        // This is the content on the article 
   
           <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda sit ipsam ducimus ab in, velit 
           </p>
   
-        <!-- This is the muted text on the article -->
+        //This is the muted text on the article
   
           <p class="card-text paraCardText"><small class="text-muted">Last updated ${MarsData.photos[0].earth_date}</small></p>
   
@@ -348,13 +348,14 @@ const getMarsPic = async () =>{
       </div>
     </div>
   </div>`;
- })
-getMarsPic()
-.then(data => {
-  MarsData = data;
-  console.log(MarsData);
+ });s
 
-// This is applied on the third article------------------------------------------------------>
+// getMarsPic()
+// .then(data => {
+//   MarsData = data;
+//   console.log(MarsData);
+
+// This is applied on the third article
 
   PlutoRover.innerHTML = ` <div class="card mb-3 first PlutoRover " style="max-width: 540px;">
   <div class="row no-gutters">
@@ -364,7 +365,7 @@ getMarsPic()
     <div class="col-md-8">
       <div class="card-body">
          
-      <!-- This is the heading of the photo -->
+     // This is the heading of the photo 
 
         <h3 class="card-title bigHeading">
           <a class="anchorTagHeading" href="#">${MarsData.photos[0].rover.cameras[1].full_name}</a>
@@ -374,12 +375,12 @@ getMarsPic()
               <a class="ByAuthorText" href="#">${MarsData.photos[0].rover.cameras[1].name}</a>
         </h5>
 
-      <!-- This is the content on the article -->
+      // This is the content on the article 
 
         <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta 
         </p>
 
-      <!-- This is the muted text on the article -->
+      // This is the muted text on the article 
 
         <p class="card-text paraCardText"><small class="text-muted">Last updated on ${MarsData.photos[0].earth_date}</small></p>
 
@@ -391,7 +392,7 @@ getMarsPic()
 }).catch(err => console.log(err));  
       
   
- //  NASA page API ENDPOINT :EPIC: Earth Polychromatic Imaging Camera----------------------------------->
+ //  NASA page API ENDPOINT :EPIC: Earth Polychromatic Imaging Camera-----------------------------------
 // Variables
 
  const Spaceships = document.querySelector('.Spaceships');
@@ -429,7 +430,7 @@ getMarsPic()
      <div class="col-md-8 ">
        <div class="card-body">
           
-      <!-- This is the heading of the opinion piece -->
+      // This is the heading of the opinion piece 
 
          <h3 class="card-title bigHeading">
            <a class="anchorTagHeading" href="#">${SpaceData.photos[0].camera.full_name}
@@ -441,12 +442,12 @@ getMarsPic()
                <a class="writtenArticle ByAuthorText" href="#">${SpaceData.photos[0].camera.name}</a>
          </h5>
 
-      <!-- This is the content of the opinion piece -->
+      // This is the content of the opinion piece 
 
          <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda.</p>
 
 
-       <!-- This is the muted text on the opinion piece -->
+       // This is the muted text on the opinion piece 
 
          <p class="card-text paraCardText"><small class="text-muted">Last updated ${SpaceData.photos[0].rover.launch_date}</small>
          </p>
@@ -473,7 +474,7 @@ getMarsPic()
      <div class="col-md-8 ">
        <div class="card-body">
           
-      <!-- This is the heading of the opinion piece -->
+      // This is the heading of the opinion piece 
 
          <h3 class="card-title bigHeading">
            <a class="anchorTagHeading" href="#">${SpaceData.photos[24].rover.name}
@@ -485,12 +486,12 @@ getMarsPic()
                <a class="writtenArticle ByAuthorText" href="#">${SpaceData.photos[24].rover.cameras[1].name}</a>
          </h5>
 
-      <!-- This is the content of the opinion piece -->
+      // This is the content of the opinion piece 
 
 
          <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda.</p>
 
-       <!-- This is the muted text on the opinion piece -->
+       // This is the muted text on the opinion piece 
 
 
          <p class="card-text paraCardText"><small class="text-muted">Last updated ${SpaceData.photos[0].rover.launch_date}</small>
@@ -518,7 +519,7 @@ getMarsPic()
      <div class="col-md-8 ">
        <div class="card-body">
           
-      <!-- This is the heading of the opinion piece -->
+      // This is the heading of the opinion piece 
 
          <h3 class="card-title bigHeading">
            <a class="anchorTagHeading" href="#">${SpaceData.photos[24].rover.name}
@@ -530,12 +531,12 @@ getMarsPic()
                <a class="writtenArticle ByAuthorText" href="#">${SpaceData.photos[24].rover.cameras[1].name}</a>
          </h5>
 
-      <!-- This is the content of the opinion piece -->
+      // This is the content of the opinion piece 
 
          <p class="card-text paraCardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, vitae. Beatae dicta assumenda.</p>
 
 
-       <!-- This is the muted text on the opinion piece -->
+       // This is the muted text on the opinion piece 
 
          <p class="card-text paraCardText"><small class="text-muted">Last updated ${SpaceData.photos[24].rover.landing_date}</small>
          </p>
@@ -551,7 +552,7 @@ getMarsPic()
 
 
 
-       <!-- This is the muted text on the opinion piece -->
+       // This is the muted text on the opinion piece
 
          <p class="card-text paraCardText"><small class="text-muted">Last updated ${SpaceData.photos[24].rover.landing_date}</small>
          </p>
@@ -567,7 +568,7 @@ getMarsPic()
 
 
 
-// // This is API applied on the third article
+//  This is API applied on the third article
   
 //  const PlutoRover = document.querySelector('.PlutoRover');
  
@@ -583,7 +584,7 @@ getMarsPic()
 //       const responsePluto = await fetch(basePluto);
   
 //       const data = await responsePluto.json();
-//       return data;
+//       return data;/
 //   };
 //   getPlutoPic()
 //   .then(data => {
@@ -626,5 +627,10 @@ getMarsPic()
 
 // }).catch(err => console.log(err));  
       
+
+
+
+
+
 
 

@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--SEO meta-data -->
+    <meta name="description=" content="The Daily Maverick cartoons provide insightful information in politics and social issues.The best value-adding humour with topics ranging from social to political news. We provide an opinionista section where you can pour out your heart,The Daily Maverick keeps you entertained with daily updated opinion pieces">
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- my links to css -->
+    <!-- <link rel="stylesheet" href="css/template.css"> -->
+    <!-- <link rel="stylesheet" href="css/TheGalesOfLaughter.css"> -->
+    <!-- <link rel="stylesheet" href="css/TheGalesOfLaughter.css"> -->
+    <link rel="stylesheet" href="css/addRemove.css">
+    
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- descripitive title tag -->
+    <title>Your Dose of Daily Humour: Comment Section</title>
+
+    <!-- The URL -->
+    <!-- https://www.tplcoders.com/TheDailyMaverick/TheGalesofLaughter.html/ -->
+
+</head>
+  <body>
+  <!-- This is the NavBar Section -->
+     <div class="NavBar">
+      <div id="myNav" class="overlay"> 
+
+            <div class="col-10">
+              <img class="Dms" src="asssets/images/pics/NavbarCircleLogo.png" alt="logo" width="30%">
+            </div>
+
+        <!-- Button to close the overlay navigation -->
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+      
+        <!-- Overlay content -->
+         <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="TheDailyScope.html">The Daily Scope</a>
+          <a href="TheGalesOfLaughter.html">The Gales Of Laughter</a>
+          <a href="Nasa.html">Nasa News</a>
+          <a href="#">Podcasts</a>
+          <a href="#">Support DM</a>
+          <a href="LifeStyle.html">Life Style Page</a>
+          <a href= "Contact.html">Contact Us</a>
+      </div> 
+     </div> 
+
+     <div class="navbar-brand col-4" id="menuToggle">
+        
+        <!-- Use any element to open/show the overlay navigation menu -->
+          <span style="font-size:50px;cursor:pointer" onclick="openNav()"></span>
+          <span style="font-size:50px;cursor:pointer" onclick="openNav()"></span>
+          <span style="font-size:50px;cursor:pointer" onclick="openNav()"></span>
+     </div> 
+
+       <div class="col-10">
+        <img class="logoimage" src="asssets/images/pics/logo.png" alt="logo">
+      </div> 
+ </div> 
+
+<div class="container my-5">
+    <h1 class="DMcomments">Share your knowledge and thoughts</h1>
+    <br>
+    <h5 class="DMcomments">Please note you must be a Maverick Insider to comment. Sign up here  or sing in if you already an Insider</h5>
+    <br><br>
+    
+    <ul class="DMcomments">
+        <!-- <li>My comments</li>
+        
+        <li>I want to comment</li> -->
+        
+    </ul>
+
+    <form>
+        <label for="comments">Share your comment here</label>
+
+        <div class="input-group InputComment">
+
+            <input class="form-control" type="text" id="userComments" 
+            placeholder="enter comment" required>
+
+            <div class="input-group-append InputColor">
+
+                <input type="submit" value="add" class="btn btn-outline-secondary addBtn">
+            </div> 
+        </div>
+    </form>
+
+    <!-- <button></button> -->
+
+</div>
+
+
+<!-- Database ------------------------------------------------------>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+
+<script>
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyC_eHcOpTtKf_O6OYqoIuedkkdOF_0xrGI",
+  authDomain: "thedmproject-f0837.firebaseapp.com",
+  databaseURL: "https://thedmproject-f0837.firebaseio.com",
+  projectId: "thedmproject-f0837",
+  storageBucket: "thedmproject-f0837.appspot.com",
+  messagingSenderId: "77504308779",
+  appId: "1:77504308779:web:9f3a2a716f82cc9c64ac6e",
+  measurementId: "G-BBG3TG43PL"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+firebase.analytics();
+</script>
+
+
+
+<!-- links to the scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<!-- bootstrap link -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- link to my JS -->
+<!-- <script src="js/template.js"></script> -->
+<script src="js/addRemove.js"></script>
+<!-- <script src="js/mydatabasescript.js"></script> -->
+<!-- <script src="js/TheGalesOfLaughter.js"></script> -->
+
+</body>
+</html>
