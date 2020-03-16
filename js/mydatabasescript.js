@@ -24,7 +24,7 @@ const addCartoon = (cartoons) => {
       
         <!-- This the share icon: its an svg -->
           <div  class="share comment">
-            <?xml version="1.0" encoding="UTF-8"?>
+            <?xml version="1.0" encodi/ng="UTF-8"?>
             <svg enable-background="new 0 0 426.667 426.667" version="1.1" viewBox="0 0 426.67 426.67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
       
         
@@ -190,68 +190,6 @@ db.collection('Opinionista').get().then((snapshot) => {
        console.log(err);
   });
   
-
-// this applies to the addRemovehtml page. Comment Section.-----
-
-
-// const commentSection = document.querySelector('ul');
-
-// const addComment = (comments) => {
-
-// console.log(comments.created_at.toDate());
-
-//   let html = 
-//   `
-//     <li>
-//         <div> ${Comments.title}</div>
-//         <div> ${time}</div>
-//     </li>
-//   `;
-
-//    commentSection.innerHTML += html;
-// }
-
-// db.collection('Comments').get().then((snapshot) => {
-
-//   //do something when we have the data
-//   snapshot.docs.forEach (doc => {
-//     console.log(doc.data());
-//     addComment(doc.data());
-//   });
-    
-  
-// }).catch(err =>{
-//   console.log(err);
-// });
-
-
- 
-// // add documents
-// form.addEventListener('submit', e => {
-//   e.preventDefault();
-
-//   const now = new Date();
-//   const comments = {
-
-//     title: form.comments.value,
-//     created_at: firebase.firestore.Timestamp.fromDate(now)
-//   };
-
-//   db.collection('Comments').add(comments).then(() =>{
-//     console.log('comment added');
-//   }).catch (err =>{
-//       console.log(err);
-//    });
-// });
- 
-  
-
-
-
-
-
-
-
 
 
   
